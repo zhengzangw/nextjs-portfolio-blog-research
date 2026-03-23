@@ -3,15 +3,15 @@ import { defineRouting } from "next-intl/routing";
 
 import { siteConfig } from "@/data/site";
 
-export const LOCALES = ["en", "zh"];
+export const LOCALES = ["en", "fr"];
 export const DEFAULT_LOCALE = "en";
 export const LOCALE_ICONS = {
   en: "En",
-  zh: "中",
+  fr: "Fr",
 };
 export const LOCALE_TO_HREFLANG: Record<Locale, string> = {
   en: "en-US",
-  zh: "zh-CN",
+  fr: "fr-FR",
 };
 
 export const routing = defineRouting({

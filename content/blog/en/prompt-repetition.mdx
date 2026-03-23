@@ -1,0 +1,98 @@
+---
+title: "Say It Again: Does Repeating the Prompt Make Small LLMs Smarter?"
+date: "2026-02-22"
+summary: "I tested a dead-simple trick from a Google Research paper on small open-source models. Just repeat the prompt. On ARC-Challenge, accuracy doubled."
+---
+
+## A Paper That Shouldn't Work
+
+I came across ["Prompt Repetition Improves Non-Reasoning LLMs"](https://arxiv.org/abs/2512.14982) and almost scrolled past it. The claim sounded too simple: copy-paste your prompt inside a single request, and the model gets more accurate. No fine-tuning. No chain-of-thought. Just... say it twice.
+
+```
+Q: What gas do plants absorb?
+(A) oxygen (B) carbon dioxide (C) nitrogen (D) helium
+
+Q: What gas do plants absorb?
+(A) oxygen (B) carbon dioxide (C) nitrogen (D) helium
+A:
+```
+
+The authors tested this on Gemini, GPT-4o, Claude, and DeepSeek. Across 70 model-benchmark pairs, repetition helped or stayed neutral in every case. Not a single regression.
+
+The intuition makes sense once you think about it. Transformers process tokens left-to-right. The first copy of the prompt only has forward context. But the second copy gets to attend to everything, including the first copy. It's basically a cheap approximation of bidirectional attention. The model gets a second pass at understanding the question before it has to commit to an answer.
+
+## But Does It Work on Small Models?
+
+The paper only tested large, closed-source models behind APIs. That's great, but I was more interested in a different question: **what happens when you try this on a 1.5B parameter model running on a free Colab GPU?**
+
+Small models are where this trick would matter most. If you're already paying for GPT-4o, a few extra input tokens is nothing. But if you're running Qwen 1.5B locally because you need it cheap or private, squeezing out extra accuracy for free is a big deal.
+
+So I ran the experiment.
+
+## Setup
+
+Google Colab, A100 GPU, [Unsloth](https://unsloth.ai) for fast inference. I tested four prompt variants:
+
+- **Baseline**: ask the question once
+- **Repeat x2**: ask it twice
+- **Repeat x3**: ask it three times
+- **Options-first**: show answer choices before the question (a different reordering trick)
+
+I ran this across three model families (Qwen, Llama, Gemma) from 0.5B to 9B parameters, on ARC-Challenge (science reasoning), OpenBookQA, and the paper's custom NameIndex task.
+
+## Results
+
+Qwen2.5-1.5B on 50 ARC-Challenge samples:
+
+| Variant | Accuracy |
+|---------|----------|
+| Baseline | 22% |
+| Repeat x2 | 40% |
+| Repeat x3 | **44%** |
+| Options-first | 26% |
+
+22% to 44%. Accuracy doubled by repeating the prompt three times.
+
+This isn't noise. McNemar's test gives p=0.022 for the x3 result. And it cost nothing extra in terms of output tokens. The only overhead is a longer input, which only affects prefill time, not generation speed.
+
+OpenBookQA was less dramatic, a +4 percentage point bump with x2, not statistically significant. This tracks with the original paper: the effect depends on the benchmark. Tasks that require careful reasoning over multiple answer choices benefit the most.
+
+### NameIndex
+
+The paper's wildest result was on NameIndex, a task where the model must find a specific name in a list of 50 random names. Large models went from 21% to 97% with repetition.
+
+Small models? Not so much:
+
+| Variant | Accuracy |
+|---------|----------|
+| Baseline | 2.0% |
+| Repeat x2 | 6.7% |
+| Repeat x3 | 8.0% |
+
+The trend is there. Repetition still helps. But 1.5B parameters just doesn't have the attention capacity to handle a 50-item lookup. This task needs the raw horsepower of a 7B+ model. Repetition can't compensate for what the model fundamentally can't do.
+
+## What This Tells Us
+
+**Prompt repetition works on small models.** Not on every task, but on reasoning-heavy benchmarks like ARC, the gains are real and significant. A 1.5B model with a triple-repeated prompt beats its own baseline by 22 percentage points.
+
+**The effect is task-dependent.** If the task requires the model to carefully weigh multiple options (like multiple-choice science questions), repetition helps a lot. If it's more about recall or simple lookup, the gains are smaller.
+
+**Scale still matters.** Repetition gives the model a better chance to use the capacity it has. It doesn't give it capacity it doesn't have. NameIndex proves that. The 21% to 97% jump from the original paper almost certainly requires 7B+ parameters.
+
+**It's genuinely free.** No training, no API changes, no extra output tokens. The input gets longer, but that only affects prefill time. Per-token generation latency stays the same.
+
+## Code
+
+Everything is open-source:
+
+**[github.com/mohamedAtoui/prompt-repetition-experiment](https://github.com/mohamedAtoui/prompt-repetition-experiment)**
+
+Upload `notebooks/colab_full_run.ipynb` to Colab, set the runtime to GPU, and run it. Swap in a different model with one line:
+
+```python
+MODEL_NAME = "llama3.1-8b"  # or qwen2.5-7b, gemma2-9b, etc.
+```
+
+If you're running small models and accuracy matters, try repeating the prompt before reaching for anything more complicated. Sometimes the dumbest trick is the one that works.
+
+*Paper: Leviathan, Y., Kalman, M., & Matias, Y. (2024). "Prompt Repetition Improves Non-Reasoning LLMs." [arXiv:2512.14982](https://arxiv.org/abs/2512.14982)*

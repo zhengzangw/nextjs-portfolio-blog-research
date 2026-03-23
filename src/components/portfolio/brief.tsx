@@ -21,9 +21,6 @@ export default function Brief({
   className?: string;
   locale?: string;
 }) {
-  // For Chinese locale, display surname first (姓在前)
-  const isChinese = locale === "zh";
-
   return (
     <div
       className={`flex flex-col-reverse items-center justify-center gap-6 sm:flex-row sm:justify-between md:gap-8 lg:gap-10 ${className || ""}`}
@@ -31,15 +28,11 @@ export default function Brief({
       <div className="flex flex-1 flex-col items-center space-y-1.5 text-center sm:items-start sm:text-left">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
           {firstName && surname ? (
-            isChinese ? (
-              `${surname}${firstName}`
-            ) : (
-              <>
-                <span>{firstName}</span>{" "}
-                <span className="inline-block w-1"></span>
-                <span>{surname}</span>
-              </>
-            )
+            <>
+              <span>{firstName}</span>{" "}
+              <span className="inline-block w-1"></span>
+              <span>{surname}</span>
+            </>
           ) : (
             name
           )}

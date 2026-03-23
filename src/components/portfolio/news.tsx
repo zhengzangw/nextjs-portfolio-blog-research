@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { CustomReactMarkdown } from "@/components/react-markdown";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { Button } from "@/components/ui/button";
+import { useTouchFeedback } from "@/hooks/use-touch-feedback";
 
 interface NewsItem {
   readonly date: string;
@@ -23,21 +24,7 @@ interface NewsSectionProps {
 const DEFAULT_DISPLAY_COUNT = 5;
 
 function NewsItem({ item, delay }: { item: NewsItem; delay: number }) {
-  const [isTapped, setIsTapped] = useState(false);
-
-  const handleTouchStart = () => {
-    if (window.innerWidth < 640) {
-      // sm breakpoint
-      setIsTapped(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    if (window.innerWidth < 640) {
-      // Keep the effect for a bit longer
-      setTimeout(() => setIsTapped(false), 200);
-    }
-  };
+  const { isTapped, handleTouchStart, handleTouchEnd } = useTouchFeedback();
 
   return (
     <BlurFade key={`${item.date}-${item.title}`} delay={delay}>

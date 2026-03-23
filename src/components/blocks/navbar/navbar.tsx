@@ -49,6 +49,7 @@ export default function Navbar({
   const getIconComponent = (iconName: string) => {
     const iconMap: Record<string, typeof Icons.home> = {
       home: Icons.home,
+      folder: Icons.folder,
       notebook: Icons.notebook,
       fileuser: Icons.fileuser,
     };

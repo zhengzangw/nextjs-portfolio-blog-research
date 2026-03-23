@@ -9,6 +9,7 @@ import { CustomReactMarkdown } from "@/components/react-markdown";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
+import { useTouchFeedback } from "@/hooks/use-touch-feedback";
 import { cn } from "@/lib/utils";
 
 interface ResumeCardProps {
@@ -36,26 +37,12 @@ export const ResumeCard = ({
   location,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
-  const [isTapped, setIsTapped] = React.useState(false);
+  const { isTapped, handleTouchStart, handleTouchEnd } = useTouchFeedback();
 
   const handleClick = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
     if (description) {
       e.preventDefault();
       setIsExpanded(!isExpanded);
-    }
-  };
-
-  const handleTouchStart = () => {
-    if (window.innerWidth < 640) {
-      // sm breakpoint
-      setIsTapped(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    if (window.innerWidth < 640) {
-      // Keep the effect for a bit longer
-      setTimeout(() => setIsTapped(false), 200);
     }
   };
 
@@ -68,7 +55,7 @@ export const ResumeCard = ({
       onTouchEnd={handleTouchEnd}
     >
       <div className="flex-none">
-        <Avatar className="bg-muted-background dark:bg-foreground m-auto size-12 border">
+        <Avatar className="bg-muted dark:bg-foreground m-auto size-12 border">
           <AvatarImage src={logoUrl} alt={altText} className="object-contain" />
           <AvatarFallback>{altText[0]}</AvatarFallback>
         </Avatar>

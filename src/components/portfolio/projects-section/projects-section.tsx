@@ -48,7 +48,7 @@ export default function ProjectsSection({
     setMounted(true);
 
     const updateDisplayCount = () => {
-      // 使用 Tailwind 的 lg 断点 (1024px) 作为桌面和移动端的分界
+      // Use Tailwind's lg breakpoint (1024px) as desktop/mobile boundary
       const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
       setDisplayCount(isDesktop ? desktopDisplayCount : mobileDisplayCount);
     };

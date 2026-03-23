@@ -10,6 +10,15 @@
         "workExperience": "Internship & Work Experience",
         "awards": "Awards & Honors",
         "academicServices": "Academic Services",
+        "work": {
+            "title": "Work",
+            "tagline": "A collection of projects I've built.",
+            "allCategories": "All",
+            "technologies": "Technologies",
+            "gallery": "Gallery",
+            "viewProject": "View Project",
+            "noResults": "No projects found"
+        },
         "news": {
             "title": "Latest News"
         },
@@ -43,12 +52,17 @@
                 "label": "Home"
             },
             {
+                "href": "/work",
+                "icon": "folder",
+                "label": "Work"
+            },
+            {
                 "href": "/blog",
                 "icon": "notebook",
                 "label": "Blog"
             },
             {
-                "href": "/resume.pdf",
+                "href": "/Mohamed_Atoui_CV.pdf",
                 "icon": "fileuser",
                 "label": "CV"
             }
@@ -96,33 +110,21 @@
             },
             {
                 "name": "Download CV",
-                "url": "/resume.pdf"
-            },
-            {
-                "name": "QR code",
-                "url": "/qrcode.png"
-            },
-            {
-                "name": "Business card",
-                "url": "/business-card-en.jpg"
+                "url": "/Mohamed_Atoui_CV.pdf"
             }
         ],
         "discover": [
             {
-                "name": "HPC-AI Lab",
-                "url": "https://ai.comp.nus.edu.sg/"
+                "name": "Nordlys Labs",
+                "url": "https://www.nordlyslabs.com/"
             },
             {
-                "name": "iCyPhy",
-                "url": "https://www.icyphy.org/people.html"
+                "name": "Royal Holloway",
+                "url": "https://www.royalholloway.ac.uk/"
             },
             {
-                "name": "NJU-CSE-Flyers",
-                "url": "https://nju-cse-flyers.github.io/"
-            },
-            {
-                "name": "HPC-AI Tech",
-                "url": "https://www.hpcaitech.com/"
+                "name": "Stats Perform",
+                "url": "https://www.statsperform.com/"
             }
         ],
         "contact": {

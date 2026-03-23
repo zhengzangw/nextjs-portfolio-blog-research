@@ -13,7 +13,7 @@ import { unified } from "unified";
 
 // Reading speed constants (words/characters per minute)
 const READING_SPEED_EN = 225; // English: words per minute
-const READING_SPEED_ZH = 350; // Chinese: characters per minute
+const READING_SPEED_FR = 250; // French: words per minute
 
 // Define the expected metadata structure
 interface BlogPostMetadata {
@@ -39,7 +39,7 @@ function getMDXFiles(dir: string) {
 /**
  * Calculate reading time based on content and locale
  * @param content - The markdown content (without frontmatter)
- * @param locale - The locale ('en' or 'zh')
+ * @param locale - The locale ('en' or 'fr')
  * @returns Reading time in minutes (rounded up)
  */
 function calculateReadingTime(content: string, locale: string): number {
@@ -52,27 +52,9 @@ function calculateReadingTime(content: string, locale: string): number {
     .replace(/\n+/g, " ") // Replace newlines with spaces
     .trim();
 
-  if (locale === "zh") {
-    // Count Chinese characters (CJK unified ideographs)
-    const chineseCharPattern = /[\u4e00-\u9fff]/g;
-    const chineseChars = text.match(chineseCharPattern) || [];
-    const chineseCount = chineseChars.length;
-
-    // Count other characters (spaces, punctuation, etc.) as words
-    const otherText = text.replace(chineseCharPattern, "").trim();
-    const otherWords = otherText
-      .split(/\s+/)
-      .filter((w) => w.length > 0).length;
-
-    // Chinese: READING_SPEED_ZH characters per minute
-    // For mixed content, count Chinese chars + English words
-    const totalUnits = chineseCount + otherWords;
-    return Math.max(1, Math.ceil(totalUnits / READING_SPEED_ZH));
-  } else {
-    // English: READING_SPEED_EN words per minute
-    const words = text.split(/\s+/).filter((w) => w.length > 0);
-    return Math.max(1, Math.ceil(words.length / READING_SPEED_EN));
-  }
+  const speed = locale === "fr" ? READING_SPEED_FR : READING_SPEED_EN;
+  const words = text.split(/\s+/).filter((w) => w.length > 0);
+  return Math.max(1, Math.ceil(words.length / speed));
 }
 
 export async function markdownToHTML(markdown: string) {
@@ -101,7 +83,7 @@ export async function getPost(
   slug: string,
   locale: string = "en",
 ): Promise<BlogPost | null> {
-  const contentDir = locale === "zh" ? "content/blog/zh" : "content/blog/en";
+  const contentDir = `content/blog/${locale}`;
   const filePath = path.join(contentDir, `${slug}.mdx`);
 
   // Check if file exists
@@ -155,11 +137,15 @@ async function getAllPosts(
 
 export async function getBlogPosts(locale: string = "en"): Promise<BlogPost[]> {
   try {
-    const contentDir = locale === "zh" ? "content/blog/zh" : "content/blog/en";
-    const posts = await getAllPosts(
-      path.join(process.cwd(), contentDir),
-      locale,
-    );
+    const contentDir = `content/blog/${locale}`;
+    const fullPath = path.join(process.cwd(), contentDir);
+
+    // Return empty array if directory doesn't exist
+    if (!fs.existsSync(fullPath)) {
+      return [];
+    }
+
+    const posts = await getAllPosts(fullPath, locale);
     return Array.isArray(posts) ? posts : [];
   } catch (error) {
     console.error(`Error getting blog posts for locale ${locale}:`, error);
@@ -167,9 +153,9 @@ export async function getBlogPosts(locale: string = "en"): Promise<BlogPost[]> {
   }
 }
 
-export async function hasChineseVersion(slug: string): Promise<boolean> {
-  const chineseFilePath = path.join("content/blog/zh", `${slug}.mdx`);
-  return fs.existsSync(chineseFilePath);
+export async function hasFrenchVersion(slug: string): Promise<boolean> {
+  const frenchFilePath = path.join("content/blog/fr", `${slug}.mdx`);
+  return fs.existsSync(frenchFilePath);
 }
 
 export async function hasEnglishVersion(slug: string): Promise<boolean> {
@@ -190,8 +176,7 @@ export async function getAvailableLocales(
   const availableLocales: string[] = [];
 
   for (const locale of locales) {
-    // Use the same logic as getPost to determine content directory
-    const contentDir = locale === "zh" ? "content/blog/zh" : "content/blog/en";
+    const contentDir = `content/blog/${locale}`;
     const filePath = path.join(process.cwd(), contentDir, `${slug}.mdx`);
     if (fs.existsSync(filePath)) {
       availableLocales.push(locale);

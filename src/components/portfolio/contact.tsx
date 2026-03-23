@@ -38,7 +38,7 @@ export default function Contact({
           {contactDescription}{" "}
           <Link
             href={emailUrl}
-            className="inline-flex items-center gap-1 text-foreground underline transition-colors hover:no-underline"
+            className="group inline-flex items-center gap-1 text-foreground underline transition-colors hover:no-underline"
           >
             {viaEmail}
           </Link>{" "}

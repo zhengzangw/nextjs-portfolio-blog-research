@@ -1,18 +1,18 @@
 {
     "name": {
-        "full": "Zangwei Zheng",
-        "given": "Zangwei",
-        "family": "Zheng",
-        "initials": "ZZ"
+        "full": "Mohamed Atoui",
+        "given": "Mohamed",
+        "family": "Atoui",
+        "initials": "MA"
     },
-    "subtitle": "郑奘巍, Ph.D.",
-    "headline": "AI Researcher & Full Stack Developer\nTech Lead at HPC-AI Tech",
-    "welcome": "Welcome to my homepage!",
-    "ogImageUrl": "zangwei.dev",
-    "bioMarkdown": "Hi, I'm Zangwei👋, founder of [Open-Sora](https://github.com/hpcaitech/Open-Sora) and [Video-Ocean](https://video-ocean.com/). I'm working on AI-powered video generation and SaaS products that bridge research and real-world creativity.\n\nI earned my Ph.D. from ![NUS Logo](/icon/nus.png) [National University of Singapore](https://nus.edu.sg/) (NUS), advised by Prof. [Yang You](https://scholar.google.com/citations?user=jF4dPZwAAAAJ&hl=en). I had my research intern in ![Bytedance Logo](/icon/bytedance.png) [Bytedance](https://bytedance.com/), mentored by [Xuan Zhou](https://scholar.google.com/citations?user=gSqwyvsAAAAJ&hl=en) and [Youlong Cheng](https://scholar.google.com/citations?user=CSTk_LMAAAAJ&hl=en). I received my B.Sc. in Computer Science from ![NJU Logo](/icon/nju.png) [Nanjing University](https://www.nju.edu.cn/en/) (NJU). I worked remotely as a research intern at ![UC Berkeley Logo](/icon/ucb.png) [UC Berkeley](https://www.berkeley.edu/) for a year, mentored by Dr. [Xiangyu Yue](https://scholar.google.com/citations?user=-xQ-C1sAAAAJ&hl=en&authuser=1) and Prof. [Alberto L. Sangiovanni-Vincentelli](https://www2.eecs.berkeley.edu/Faculty/Homepages/sangiovanni-vicentelli.html). You can find more about my background in my [CV](./resume.pdf).\n\n🔬 **Research Interests:** Video Generation, Efficient ML and DL (Deep Learning) Optimization.",
+    "subtitle": "BSc Computer Science & AI",
+    "headline": "ML Engineer\nCo-Founder at Nordlys Labs",
+    "welcome": "Welcome to my portfolio!",
+    "ogImageUrl": "",
+    "bioMarkdown": "Hi, I'm Mohamed, Co-Founder & ML Research Lead at ![Nordlys Logo](/icon/nordlys_logo.png) [Nordlys Labs](https://www.nordlyslabs.com/), building intelligent LLM routing systems that select the best model for each task — reducing inference costs by 50–60% and scaling to 500+ users.\n\nI'm a 3rd-year Computer Science & AI student at ![RHUL Logo](/icon/rhul.png) [Royal Holloway, University of London](https://www.royalholloway.ac.uk/) with First-Class Honours. My work spans ML research (transformer attention mechanisms, adversarial robustness), data science (sports analytics at ![Stats Perform Logo](/icon/statsperform.png) [Stats Perform](https://www.statsperform.com/)), and teaching.\n\nYou can find more about my background in my [CV](./Mohamed_Atoui_CV.pdf).\n\n**Interests:** Machine Learning, LLM Systems, Applied AI, Product Development.",
     "location": {
-        "name": "Singapore",
-        "mapUrl": "https://www.google.com/maps/place/singapore"
+        "name": "Egham, United Kingdom",
+        "mapUrl": "https://www.google.com/maps/place/egham"
     },
-    "blogTagline": "Thoughts on AI, software, life and more. Short notes and longer write-ups."
+    "blogTagline": "Thoughts on AI, machine learning, and more."
 }

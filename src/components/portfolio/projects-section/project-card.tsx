@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 
 import { CustomReactMarkdown } from "@/components/react-markdown";
 import { Badge } from "@/components/ui/badge";
@@ -13,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { useTouchFeedback } from "@/hooks/use-touch-feedback";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -46,21 +46,7 @@ export function ProjectCard({
   authors,
   className,
 }: Props) {
-  const [isTapped, setIsTapped] = useState(false);
-
-  const handleTouchStart = () => {
-    if (window.innerWidth < 640) {
-      // sm breakpoint
-      setIsTapped(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    if (window.innerWidth < 640) {
-      // Keep the effect for a bit longer
-      setTimeout(() => setIsTapped(false), 200);
-    }
-  };
+  const { isTapped, handleTouchStart, handleTouchEnd } = useTouchFeedback();
 
   return (
     <Card

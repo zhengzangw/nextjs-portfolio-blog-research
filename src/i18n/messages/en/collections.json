@@ -2,987 +2,667 @@
   "news": {
     "items": [
       {
+        "date": "2026.2",
+        "title": "Presented MoM Framework at Online Meetup",
+        "content": "Presented the MoM (Mixture of Models) framework in an online meetup, followed by engaging discussions with the audience on LLM routing and model selection strategies."
+      },
+      {
         "date": "2025.10",
-        "title": "New homepage [zangwei.dev](https://zangwei.dev) launched! Welcome to visit!",
-        "content": "🎉 [nextjs-portfolio-blog-research](https://docs-nextjs-portfolio-blog-research.zangwei.dev/) template for this site is also available on [GitHub](https://github.com/zhengzangw/nextjs-portfolio-blog-research). On click and deploy your own homepage in minutes."
+        "title": "Teaching Assistant at Royal Holloway",
+        "content": "Started as a Teaching Assistant for Object-Oriented Programming & Software Engineering at Royal Holloway, University of London."
       },
       {
-        "date": "2025.8",
-        "title": "[Video-Ocean Agent](https://video-ocean.com/en/agent) Online",
-        "content": "🌊 Video-Ocean Agent is now online! Generate videos up to minutes with a few clicks."
+        "date": "2025.6",
+        "title": "Product Data Intern at [Stats Perform](https://www.statsperform.com/)",
+        "content": "Joined Stats Perform as a Product Data Intern, working on sports analytics and data science."
       },
       {
-        "date": "2025.5",
-        "title": "Ph.D. Graduated",
-        "content": "🎓 Graduated from [HPC-AI Lab](https://ai.comp.nus.edu.sg/) @ NUS. Thanks to my supervisor and friends' help! Congratulations to myself!"
+        "date": "2024.12",
+        "title": "ML Research at ISG Smart Card & IoT Security Center",
+        "content": "Started ML research at the ISG Smart Card & IoT Security Center, working on adversarial robustness in ML-based intrusion detection for autonomous vehicles."
       },
       {
-        "date": "2025.3",
-        "title": "[Open-Sora 2.0](https://arxiv.org/abs/2503.09642) [![GitHub Repo stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social)](https://github.com/hpcaitech/Open-Sora) Released!",
-        "content": "🚀 Despite constrained computational resources, it achieves Sora-level metrics, fulfilling our goal of providing an open-source implementation of Sora."
-      },
-      {
-        "date": "2024.9",
-        "title": "Paper Accepted ([MSIER](https://arxiv.org/abs/2404.12866), EMNLP 2024)",
-        "content": "📘 Got one paper accepted to EMNLP 2024. Congratulations to [Yang Luo](https://yangluo7.github.io/)!"
-      },
-      {
-        "date": "2024.9",
-        "title": "[Video-Ocean](https://video-ocean.com/en/app) Online",
-        "content": "🌊 Video-Ocean is now online! Generate your own video with a few clicks."
-      },
-      {
-        "date": "2024.6",
-        "title": "Paper Accepted ([Dataset Growth](https://arxiv.org/pdf/2405.18347), ECCV 2024)",
-        "content": "📘 Got one paper accepted to ECCV 2024. Congratulations to [Ziheng Qin](https://scholar.google.com/citations?user=I04VhPMAAAAJ)!"
-      },
-      {
-        "date": "2024.6",
-        "title": "[Open-Sora 1.2](https://github.com/hpcaitech/Open-Sora) Released",
-        "content": "🚀 A 1.1B model on >30M data with improved performance."
-      },
-      {
-        "date": "2024.5",
-        "title": "Paper Accepted ([Token Crisis](https://arxiv.org/pdf/2305.13230), ICML 2024)",
-        "content": "📘 Got one paper accepted to ICML 2024. Congratulations to [Fuzhao Xue](https://xuefuzhao.github.io/)!"
-      },
-      {
-        "date": "2024.4",
-        "title": "[Open-Sora 1.1](https://github.com/hpcaitech/Open-Sora) Released",
-        "content": "🚀 Support 0s~15s, 144p to 720p, various aspect ratios videos generation, plus a data processing pipeline."
-      },
-      {
-        "date": "2024.4",
-        "title": "Paper Accepted ([Helen optimizer](https://arxiv.org/pdf/2403.00798), WWW 2024)",
-        "content": "📘 Got one paper accepted to WWW 2024. Congratulations to [Zirui Zhu](https://scholar.google.com/citations?user=eCAzecoAAAAJ&hl)!"
-      },
-      {
-        "date": "2024.3",
-        "title": "[Open-Sora 1.0](https://github.com/hpcaitech/Open-Sora) Released",
-        "content": "🎥 The first open-source Sora-like video generation model."
-      },
-      {
-        "date": "2024.1",
-        "title": "Paper Accepted ([InfoBatch](https://arxiv.org/pdf/2303.04947), ICLR 2024 Oral)",
-        "content": "🎉 Got one paper accepted to ICLR 2024 (oral). Congratulations to [Ziheng Qin](https://scholar.google.com/citations?user=I04VhPMAAAAJ) and [Kai Wang](https://kaiwang960112.github.io/)!"
+        "date": "2025.2",
+        "title": "Founded [Nordlys Labs](https://www.nordlyslabs.com/)",
+        "content": "Co-founded Nordlys Labs, building intelligent LLM routing systems that select the best model for each task. Beat frontier models on SWE-bench benchmarks. Scaled to 500+ users."
       },
       {
         "date": "2023.9",
-        "title": "Papers Accepted (first-authored [Sequence-Scheduling](https://arxiv.org/pdf/2305.13144), NeurIPS 2023)",
-        "content": "🔥 Got two papers accepted to NeurIPS 2023. Cong to [Fuzhao Xue](https://xuefuzhao.github.io/) and myself. So many thanks to my collaborators!"
-      },
-      {
-        "date": "2023.7",
-        "title": "Paper Accepted (first-authored  [ZSCL](https://arxiv.org/pdf/2303.06628), ICCV 2023)",
-        "content": "📄 Got one first-authored paper accepted to ICCV 2023. Thanks to all my collaborators!"
-      },
-      {
-        "date": "2023.7",
-        "title": "Award ([CAME optimizer](https://arxiv.org/abs/2307.02047), [ACL Outstanding Paper](https://2023.aclweb.org/program/best_papers/))",
-        "content": "🏅 The CAME paper won the ACL Outstanding Paper Award!"
-      },
-      {
-        "date": "2023.5",
-        "title": "Paper Accepted ([CAME optimizer](https://arxiv.org/abs/2307.02047), ACL 2023)",
-        "content": "📘 Got one paper accepted to ACL 2023. Congratulations to [Yang Luo](https://yangluo7.github.io/)!"
-      },
-      {
-        "date": "2023.4",
-        "title": "Paper Accepted ([Bamboo](https://proceedings.mlr.press/v202/xue23b.html), ICML 2023)",
-        "content": "📘 Got one paper accepted to ICML 2023. Congratulations to [Fuzhao Xue](https://xuefuzhao.github.io/)!"
-      },
-      {
-        "date": "2023.3",
-        "title": "[ColossalChat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat) [![GitHub Repo Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social)](https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalChat) Released",
-        "content": "🤖 Open-sourced LLM training framework for you to train your own version of ChatGPT. Congratulations to colleagues at HPC-AI-Tech!"
-      },
-      {
-        "date": "2023.2",
-        "title": "Award ([CowClip optimizer](https://arxiv.org/abs/2204.06240), [AAAI Distinguished Paper](https://aaai-23.aaai.org/wp-content/uploads/2023/02/AAAI-23-Paper-Awards-1.pdf))",
-        "content": "🥇 The CowClip paper won the AAAI Distinguished Paper Award!"
-      },
-      {
-        "date": "2022.12",
-        "title": "Ph.D. Qualifying Exam Passed",
-        "content": "🎓 Passed the qualifying exam. Cong to myself :) and thanks for my supervisor and friends' help!"
-      },
-      {
-        "date": "2022.11",
-        "title": "Paper Accepted (first-authored [CowClip optimizer](https://arxiv.org/abs/2204.06240), AAAI 2023)",
-        "content": "📑 Got one first-authored paper accepted to AAAI 2023. Thanks to all my collaborators!"
-      },
-      {
-        "date": "2021.8",
-        "title": "[NJU-CSE-Flyers Handbook](https://nju-cse-flyers.github.io/) Published",
-        "content": "📘 The NJU-CSE-Flyers Handbook 2021 has been published."
-      },
-      {
-        "date": "2021.7",
-        "title": "Internship at ByteDance",
-        "content": "💼 Happy to start my internship in ByteDance."
-      },
-      {
-        "date": "2021.6",
-        "title": "Graduated from [Nanjing University](https://www.nju.edu.cn/)",
-        "content": "🎓 Bacheror's degree from Nanjing University. Thanks and good luck to all my teachers and classmates."
-      },
-      {
-        "date": "2021.3",
-        "title": "Joined [HPC-AI @ NUS](https://ai.comp.nus.edu.sg/) Ph.D. Program",
-        "content": "📚 I will join HPC-AI @ NUS to start my Ph.D. degree under the supervision of Presidential Young Prof. [Yang You](https://www.comp.nus.edu.sg/~youy/)!"
-      },
-      {
-        "date": "2021.2",
-        "title": "Paper Accepted (co-first-authored [PCS-FUDA](https://arxiv.org/pdf/2103.16765), CVPR 2021)",
-        "content": "📑 Got one co-first-authored paper accepted to CVPR 2021. Thanks to all my collaborators!"
+        "title": "Started BSc CS & AI at [Royal Holloway](https://www.royalholloway.ac.uk/)",
+        "content": "Began my Bachelor's degree in Computer Science & Artificial Intelligence at Royal Holloway, University of London."
       }
     ]
   },
   "projects": {
     "items": [
       {
-        "title": "Video-Ocean Video Agent",
-        "href": "https://video-ocean.com/en/agent",
-        "dates": "Jun. 2025 - Present",
-        "active": true,
-        "description": "Video-Ocean Video Agent generates videos up to minutes with a few clicks, including voice and face.",
-        "technologies": [],
+        "title": "Nordlys Labs",
+        "slug": "nordlys-labs",
+        "categories": [
+          "AI",
+          "Business"
+        ],
+        "href": "https://www.nordlyslabs.com/",
+        "dates": "Feb. 2025 - Present",
+        "active": false,
+        "description": "Intelligent LLM routing system that selects the best model for each task. Outperformed frontier models on SWE-bench benchmarks, reduced inference costs by 50–60%, and scaled to 500+ users.",
+        "longDescription": "## About\n\nNordlys Labs is an intelligent LLM routing startup that selects the best model for each task, reducing AI inference costs by 50-60%. We were selected by the Antler accelerator and scaled to over 500 users.\n\n## Highlights\n\n- Beat frontier models on SWE-bench benchmarks\n- Reduced AI inference costs by 50-60%\n- Scaled to 500+ active users\n- Selected by the Antler accelerator program",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "LangChain",
+          "Redis",
+          "PostgreSQL",
+          "Docker"
+        ],
         "authors": "",
         "links": [
           {
             "type": "Website",
-            "href": "https://video-ocean.com/en/agent",
+            "href": "https://www.nordlyslabs.com/",
             "icon": "globe"
+          },
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-nordlys.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "ZeroToDiffusion",
+        "slug": "diffusion",
+        "categories": ["AI", "Research"],
+        "href": "https://github.com/mohamedAtoui/ZeroToDiffusion",
+        "dates": "Mar. 2026",
+        "active": true,
+        "description": "From-scratch implementation of diffusion models: derived the probability theory, built a VAE, then implemented DDPM step by step to understand image generation from first principles.",
+        "longDescription": "## About\n\nI kept reading about Stable Diffusion and DALL-E but the math never clicked from blog posts alone. So I decided to go through it properly. Pen and paper first, then code.\n\n## How I went about it\n\nWeek 1 was just probability: Gaussians, Bayes, KL divergence, ELBO. Boring but necessary. Turns out the entire loss function makes sense once you actually derive it yourself.\n\nThen I built a VAE on MNIST. VAEs and diffusion models share the same probabilistic backbone, so this made the transition way smoother than jumping straight into DDPM.\n\nAfter that: the forward process (gradually adding noise to images), the reverse process (learning to denoise), training a UNet to predict the noise, and finally generating images from pure noise. Seeing it work for the first time was honestly pretty satisfying.\n\n## Takeaways\n\n- The connection between VAEs and diffusion clicked once I saw both as learning to reverse a destruction process\n- Noise schedules matter more than I expected for sample quality\n- Attention layers are what give diffusion models their ability to capture global structure\n\n## Papers I worked through\n\n- Kingma & Welling (2014), VAEs\n- Ho et al. (2020), DDPM",
+        "technologies": ["Python", "PyTorch", "Jupyter"],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/ZeroToDiffusion",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-diffusion.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "KV-cache optimization",
+        "slug": "kv-cache-optimization",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/mohamedAtoui",
+        "dates": "Sep. 2025",
+        "active": false,
+        "description": "Empirical comparison of MHA, MQA, and GQA attention mechanisms, measuring perplexity vs KV-cache size trade-offs on TinyStories. GQA achieved 4x cache reduction with minimal quality loss.",
+        "longDescription": "## About\n\nAn empirical study comparing three attention mechanisms: Multi-Head Attention (MHA), Multi-Query Attention (MQA), and Grouped-Query Attention (GQA), focusing on the trade-off between model quality and KV-cache memory usage.\n\n## Experimental Setup\n\n- Decoder-only transformers with 256 hidden dimensions, 4 layers, and 8 attention heads\n- Trained and evaluated on the TinyStories dataset\n- Measured perplexity, KV-cache size, and inference throughput for each mechanism\n\n## Results\n\n| Mechanism | Perplexity | KV-cache Size | Cache Reduction |\n|-----------|-----------|---------------|------------------|\n| MHA       | Baseline  | 100%          | -                |\n| MQA       | +2.1%     | 12.5%         | 8x               |\n| GQA (g=2) | +0.8%     | 25%           | 4x               |\n\n## Insight\n\nGQA strikes the best balance: 4x cache reduction with only 0.8% perplexity increase. This explains its adoption in production models like LLaMA 2 and Mistral, where memory efficiency at scale is critical.",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "NumPy"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-kv-cache-optimization.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Transformer From Stones",
+        "slug": "transformer-from-stones",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/mohamedAtoui",
+        "dates": "2024",
+        "active": false,
+        "description": "From-scratch implementation of the original Transformer architecture from 'Attention is All You Need', building multi-head attention, positional encoding, and training pipelines.",
+        "longDescription": "## About\n\nA from-scratch implementation of the original Transformer architecture as described in the \"Attention is All You Need\" paper. Every component is built from first principles.\n\n## Implementation Details\n\n- Multi-head self-attention with scaled dot-product attention\n- Sinusoidal positional encoding\n- Layer normalization and residual connections\n- Feed-forward networks with GELU activation\n- Byte-pair encoding tokenization\n- Training pipeline with gradient accumulation",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "NumPy"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-transformer.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Cyber Attack Detection",
+        "slug": "cyber-attack-detection",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/mohamedAtoui",
+        "dates": "2024",
+        "active": false,
+        "description": "Machine learning-based threat detection system that identifies and classifies cyber attacks using network traffic analysis.",
+        "longDescription": "## About\n\nA machine learning-based threat detection system that identifies and classifies cyber attacks by analyzing network traffic patterns.\n\n## Approach\n\n- Feature engineering on network traffic data\n- Multiple ML classifiers (Random Forest, SVM, Neural Networks)\n- Real-time classification pipeline\n- High accuracy on benchmark datasets",
+        "technologies": [
+          "Python",
+          "scikit-learn",
+          "Pandas",
+          "NumPy"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-cyber-attack.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Mixture of Models Framework",
+        "slug": "mom-paper",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/Nordlys-Labs/nordlys/tree/main/nordlys",
+        "dates": "Feb. 2026",
+        "active": false,
+        "description": "Research paper on the Mixture of Models (MoM) framework for intelligent LLM routing and model selection strategies.",
+        "longDescription": "## About\n\nThe MoM (Mixture of Models) framework is a research contribution to intelligent LLM routing. It introduces a systematic approach to selecting the best model for each task, combining routing strategies with cost optimization.\n\n## Contributions\n\n- Framework for LLM model selection\n- Cost-aware routing strategies\n- Benchmarking across multiple model families\n- Presented at an online meetup with community engagement",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "LangChain"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/Nordlys-Labs/nordlys/tree/main/nordlys",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-mom.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Git-RLMs",
+        "slug": "git-rlms",
+        "categories": [
+          "AI",
+          "SWE"
+        ],
+        "href": "https://github.com/mohamedAtoui/Git-RLMs",
+        "dates": "Jan. 2026",
+        "active": false,
+        "description": "Framework that lets LLMs analyze git repositories through an iterative REPL loop, exploring code incrementally instead of loading entire codebases into context.",
+        "longDescription": "## About\n\nGit-RLMs is a framework that enables LLMs to explore and analyze git repositories through an iterative REPL (Read-Eval-Print Loop). Instead of dumping an entire codebase into context, the model incrementally discovers relevant code using 12 built-in tools.\n\n## How It Works\n\n1. The LLM sends a tool command (e.g., `git_log`, `read_file`, `search_code`)\n2. The REPL executes it against the repository\n3. Results feed back to the LLM for the next exploration step\n4. Sub-model delegation via `llm_query` for focused analysis\n\n## Available Tools\n\n`git_log`, `git_show`, `git_diff`, `search_code`, `read_file`, `list_files`, `get_file_at_commit`, `git_blame`, `git_branches`, `git_tags`, `llm_query`, `python_exec`\n\n## Features\n\n- CLI and Python API\n- Supports OpenAI and Anthropic as LLM providers\n- Cost tracking and trajectory logging for reproducibility\n- Sandboxed Python execution environment",
+        "technologies": [
+          "Python",
+          "LangChain"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/Git-RLMs",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-git-rlms.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "CrossGen",
+        "slug": "crossgen",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/mohamedAtoui/Gen-Ideas-differently",
+        "dates": "2025",
+        "active": false,
+        "description": "Cross-domain idea generator that solves problems by mapping structural relationships across unrelated fields using analogical reasoning, not surface-level keyword matching.",
+        "longDescription": "## About\n\nCrossGen is a cross-domain idea generator that discovers solutions by mapping deep structural relationships across unrelated fields. Instead of asking \"what field resembles mine,\" it identifies fundamental relational patterns that transcend surface features using Gentner's Structure-Mapping Theory.\n\n## Pipeline\n\n1. Decompose the problem into domain-neutral relations\n2. Abstract through four parallel frameworks (SAPPhIRE, Biologize, WordTree, TRIZ)\n3. Expand to 6-8 distant domains\n4. Mine for structural analogies\n5. Synthesize actionable solutions\n6. Evaluate on novelty, feasibility, and depth\n\n## Design choices\n\n- Maps RELATIONS, not surface features\n- Mandatory honesty: at least three specific weak spots per solution\n- 40 universal principles and 42 curated domains across 8 categories\n- Deterministic TRIZ lookups complemented by LLM reasoning to prevent hallucination\n- CLI and web UI with live streaming output",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "Typer",
+          "Claude API"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/Gen-Ideas-differently",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-crossgen.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Vantage",
+        "slug": "vantage",
+        "categories": [
+          "AI",
+          "Business"
+        ],
+        "href": "https://github.com/mohamedAtoui/Vantage",
+        "dates": "Nov. 2025",
+        "active": false,
+        "description": "AI investment assessment tool that evaluates whether an AI project is worth building, with three-year cost projections and industry benchmarks.",
+        "longDescription": "## About\n\nVantage is a strategic AI investment assessment platform that compresses 40+ consultant hours into a 5-10 minute evaluation. It combines financial modeling, industry benchmarking, and AI analysis.\n\n## What it does\n\n- Feasibility scoring across technical complexity, data readiness, and risk\n- Three-year financial projections with risk-adjusted returns\n- Industry benchmarking grounded in 200+ real-world case studies\n- Build-vs-buy analysis and implementation roadmaps\n\n## Tech Stack\n\nUses Claude API with LangGraph for multi-step reasoning, Sentence Transformers for semantic search, and ChromaDB for vector-based case study retrieval.",
+        "technologies": [
+          "Python",
+          "LangGraph",
+          "ChromaDB",
+          "Sentence Transformers"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/Vantage",
+            "icon": "github"
           }
         ],
         "image": "",
-        "video": "https://files.zangwei.dev/proj-video-agent.mp4"
+        "video": "",
+        "gallery": []
       },
       {
-        "title": "Open-Sora [![GitHub Repo stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social)](https://github.com/hpcaitech/Open-Sora)",
-        "href": "https://github.com/hpcaitech/Open-Sora",
-        "dates": "Mar. 2024 - Mar. 2025",
-        "active": true,
-        "description": "The world's first open-source Sora-like video generation model — bringing efficient, high-quality video production to everyone.",
-        "technologies": [],
+        "title": "Get Me Clients",
+        "slug": "get-me-clients",
+        "categories": [
+          "AI",
+          "Business"
+        ],
+        "href": "https://github.com/mohamedAtoui/get-me-clients",
+        "dates": "Jan. 2026",
+        "active": false,
+        "description": "AI-powered lead generation tool for pharmaceutical sales teams. Discovers medical professionals across Algeria's 58 wilayas using Google Maps API, with LLM-driven search refinement and quality scoring.",
+        "longDescription": "## About\n\nAn AI-powered lead generation tool designed for pharmaceutical sales teams. It discovers doctors and medical professionals across Algeria's 58 wilayas using the Google Maps Places API, then scores and deduplicates leads for export.\n\n## Workflow\n\n1. **Business context input**: Describe your product and target audience\n2. **AI refinement**: DeepSeek generates clarifying questions to narrow the search\n3. **Search matrix**: Combines wilayas with medical specialties for full coverage\n4. **Lead deduplication**: Uses rapidfuzz fuzzy matching to merge duplicate entries\n5. **Quality scoring**: AI-driven scoring of each lead's relevance\n6. **Excel export**: Download clean, scored lead lists\n\n## Tech Stack\n\n- Streamlit wizard UI for step-by-step interaction\n- Google Maps Places API for location-based discovery\n- DeepSeek LLM for search refinement and scoring\n- rapidfuzz for lead deduplication",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "Streamlit",
+          "Google Maps API",
+          "DeepSeek"
+        ],
         "authors": "",
         "links": [
           {
             "type": "Github",
-            "href": "https://github.com/hpcaitech/Open-Sora",
+            "href": "https://github.com/mohamedAtoui/get-me-clients",
             "icon": "github"
-          },
-          {
-            "type": "Open-Sora 1.2",
-            "href": "https://arxiv.org/abs/2412.20404",
-            "icon": "paper"
-          },
-          {
-            "type": "Open-Sora 2.0",
-            "href": "https://arxiv.org/abs/2503.09642",
-            "icon": "paper"
           }
         ],
-        "image": "/proj-open-sora.png",
-        "video": ""
+        "image": "",
+        "video": "",
+        "gallery": []
       },
       {
-        "title": "Video-Ocean [![Video Ocean v2.0 – #1 Product of the Day (Apr 12, 2025)](https://img.shields.io/badge/Product%20Hunt-%231%20of%20the%20Day-ff6154?logo=producthunt&logoColor=white)](https://www.producthunt.com/products/video-ocean-v2-0)",
-        "href": "https://video-ocean.com/app",
-        "dates": "April 2025 - Present",
-        "active": true,
-        "description": "Video-Ocean is a video generation platform that allows you to generate videos, images and audios with state-of-the-art models.",
-        "technologies": [],
+        "title": "MedVoice Assistant",
+        "slug": "medvoice-assistant",
+        "categories": [
+          "AI",
+          "Business"
+        ],
+        "href": "https://github.com/mohamedAtoui/sales-assistant",
+        "dates": "Jan. 2026",
+        "active": false,
+        "description": "Voice-enabled AI assistant for medical sales reps. Features push-to-talk, real-time transcription, and PubMed integration for citing studies during conversations.",
+        "longDescription": "## About\n\nA voice-enabled AI assistant built for medical sales representatives. It combines push-to-talk voice interaction with PubMed literature search, so reps can cite real studies while talking to doctors.\n\n## Features\n\n- **Push-to-talk**: Hold spacebar to speak, with real-time audio visualization\n- **Speech-to-text**: Live transcription displayed as the user speaks\n- **PubMed search**: AI tool that cites relevant medical studies during conversations\n- **Auto-restart**: Conversation automatically resumes after each response\n- **Authentication**: NextAuth-based user login and session management\n- **Mistral AI backend**: Powered by Mistral for fast, accurate medical responses",
+        "technologies": [
+          "TypeScript",
+          "Next.js",
+          "React",
+          "Mistral AI",
+          "AI SDK",
+          "NextAuth"
+        ],
         "authors": "",
         "links": [
           {
             "type": "Website",
-            "href": "https://video-ocean.com/app",
+            "href": "https://sales-assistant-brown.vercel.app",
             "icon": "globe"
+          },
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/sales-assistant",
+            "icon": "github"
           }
         ],
-        "image": "/proj-video-ocean.png",
-        "video": ""
+        "image": "",
+        "video": "",
+        "gallery": []
       },
       {
-        "title": "Template for This Website",
-        "href": "https://github.com/zhengzangw/nextjs-portfolio-blog-research",
-        "dates": "Oct. 2025",
-        "active": true,
-        "description": "The template for this website, named Nextjs-Portfolio-Blog-Research. Built with Next.js, Tailwind CSS, Vercel, and more.",
-        "image": "/proj-portfolio-template.png",
+        "title": "Claude with Ads",
+        "slug": "claude-with-ads",
+        "categories": [
+          "AI",
+          "SWE"
+        ],
+        "href": "https://github.com/mohamedAtoui/claude-thrad-ads",
+        "dates": "Feb. 2026",
+        "active": false,
+        "description": "Ad-supported AI chat application offering free access to Claude-level AI, funded by contextual advertising via Thrad's network.",
+        "longDescription": "## About\n\nAn ad-supported AI chat application that gives users free access to Claude-level AI, funded by contextual advertisements. After each AI response, contextual ads from Thrad's ad network are displayed.\n\n## Features\n\n- Real-time message streaming\n- Email-based authentication via verification codes\n- Contextual ad integration with Thrad network\n- Redis-based data persistence\n- Full-stack deployment on Vercel",
+        "technologies": [
+          "TypeScript",
+          "Next.js",
+          "React",
+          "Django",
+          "Redis"
+        ],
+        "authors": "",
         "links": [
           {
             "type": "Github",
-            "href": "https://github.com/zhengzangw/nextjs-portfolio-blog-research",
+            "href": "https://github.com/mohamedAtoui/claude-thrad-ads",
             "icon": "github"
-          },
+          }
+        ],
+        "image": "/proj-claude-ads.png",
+        "video": "",
+        "gallery": [
           {
-            "type": "Docs",
-            "href": "https://docs-nextjs-portfolio-blog-research.zangwei.dev/",
-            "icon": "bookopen"
-          },
-          {
-            "type": "Blog",
-            "href": "/blog/note-nextjs-homepage",
-            "icon": "newspaper"
+            "type": "image",
+            "src": "/proj-claude-ads-2.png",
+            "alt": "Claude with Ads screenshot"
           }
         ]
       },
       {
-        "title": "ColossalChat [![GitHub Repo stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI?style=social)](https://github.com/hpcaitech/ColossalAI)",
-        "href": "https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalChat",
-        "dates": "Mar. 2023",
-        "active": true,
-        "description": "ColossalChat is a project to implement LLM with RLHF, powered by the Colossal-AI.",
-        "technologies": [],
+        "title": "Altair",
+        "slug": "altair",
+        "categories": [
+          "SWE"
+        ],
+        "href": "https://github.com/mohamedAtoui/Altair",
+        "dates": "Feb. 2026",
+        "active": false,
+        "description": "Interactive 3D data visualization platform that turns CSV datasets into particle clouds, controlled by hand gestures via webcam using MediaPipe.",
+        "longDescription": "## About\n\nAltair is an interactive 3D data visualization platform that transforms CSV datasets into explorable particle clouds. Users interact with data using hand gestures tracked in real time via their webcam, with no external hardware required.\n\n## Features\n\n- **Three topology modes**: Centralized, decentralized, and distributed particle layouts\n- **Gesture controls**: Open hand for repulsion, pinch to select, fist to collapse, point to highlight\n- **10K+ particle support** via Three.js instanced meshes for smooth 60fps rendering\n- **On-device hand tracking** using MediaPipe for privacy (no data leaves the browser)\n- CSV upload and automatic column mapping to particle properties",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Three.js",
+          "React Three Fiber",
+          "MediaPipe",
+          "Zustand"
+        ],
         "authors": "",
         "links": [
           {
             "type": "Github",
-            "href": "https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalChat",
+            "href": "https://github.com/mohamedAtoui/Altair",
             "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "https://medium.com/pytorch/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline-5edf08fb538b",
-            "icon": "newspaper"
           }
         ],
-        "image": "/proj-colossalchat.png",
-        "video": ""
+        "image": "",
+        "video": "",
+        "gallery": []
       },
       {
-        "title": "Instruction in the Wild [![GitHub Repo stars](https://img.shields.io/github/stars/XueFuzhao/InstructionWild?style=social)](https://github.com/XueFuzhao/InstructionWild)",
-        "href": "https://github.com/XueFuzhao/InstructionWild",
-        "dates": "Apr. 2024",
-        "active": true,
-        "description": "This project focuses on building a larger and more diverse instruction dataset by collecting 110K instructions from shared ChatGPT usage.",
-        "technologies": [],
+        "title": "Prompt Repetition Experiment",
+        "slug": "prompt-repetition-experiment",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/mohamedAtoui/prompt-repetition-experiment",
+        "dates": "Feb. 2026",
+        "active": false,
+        "description": "Research replication testing whether prompt repetition improves small language models' accuracy, achieving near-doubling on ARC-Challenge benchmarks.",
+        "longDescription": "## About\n\nA research experiment investigating whether repeating prompts within a single request boosts accuracy on standardized benchmarks for small language models.\n\n## Findings\n\n- Tested 9 open-source models (0.5B to 9B parameters)\n- Benchmarks: ARC-Challenge, OpenBookQA, GSM8K, HellaSwag, NameIndex\n- ARC-Challenge accuracy nearly doubled from 22% to 44% with triple repetition (p=0.022)\n- Works because the second copy of the prompt gets to attend to the first, giving the model a quasi-bidirectional pass",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "Jupyter"
+        ],
         "authors": "",
         "links": [
           {
             "type": "Github",
-            "href": "https://github.com/XueFuzhao/InstructionWild",
+            "href": "https://github.com/mohamedAtoui/prompt-repetition-experiment",
             "icon": "github"
           }
         ],
-        "image": "/proj-inst-wild.png",
-        "video": ""
+        "image": "",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "LSTM from Scratch",
+        "slug": "lstm-from-scratch",
+        "categories": [
+          "AI",
+          "Research"
+        ],
+        "href": "https://github.com/mohamedAtoui/LSTM-from-SCRATCH",
+        "dates": "Jan. 2025",
+        "active": false,
+        "description": "From-scratch implementation of LSTM networks, building every gate and cell state mechanism from first principles with backpropagation through time.",
+        "longDescription": "## About\n\nA from-scratch implementation of LSTM (Long Short-Term Memory) networks, building every gate and cell state mechanism from first principles to understand recurrent neural network architectures.\n\n## Implementation\n\n- Forget, input, and output gates\n- Cell state management\n- Backpropagation through time\n- Training on sequence data",
+        "technologies": [
+          "Python",
+          "NumPy"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/LSTM-from-SCRATCH",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-lstm.png",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Mini Compiler",
+        "slug": "mini-compiler",
+        "categories": [
+          "SWE"
+        ],
+        "href": "https://github.com/mohamedAtoui/Mini-Compiler",
+        "dates": "Oct. 2025",
+        "active": false,
+        "description": "Lexical analyzer and parser for Mini3ADR, a simple language with variables, arithmetic, and control flow, built with Lex/Flex for a compiler construction course.",
+        "longDescription": "## About\n\nA lexical analyzer and parser for Mini3ADR, a simple programming language designed for a compiler construction course. The project covers the front-end stages of compilation.\n\n## Language Features (Mini3ADR)\n\n- Integer variable declarations\n- Assignment statements\n- Arithmetic operators (+, -, *, /)\n- Relational operators (<, >, ==, !=)\n- Control flow: `while` loops and `if`/`else` statements\n\n## Implementation\n\n- **Lexer**: Tokenization with line tracking using Lex/Flex\n- **Symbol table**: Tracks declared variables and their types\n- **Parser**: Planned integration with Yacc/Bison for syntax analysis",
+        "technologies": [
+          "Lex",
+          "C",
+          "Flex",
+          "Yacc/Bison"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/Mini-Compiler",
+            "icon": "github"
+          }
+        ],
+        "image": "",
+        "video": "",
+        "gallery": []
+      },
+      {
+        "title": "Harry Potter Text Generator",
+        "slug": "generate-harry-potter",
+        "categories": [
+          "AI"
+        ],
+        "href": "https://github.com/mohamedAtoui/GenerateHarryPotter",
+        "dates": "Jul. 2024",
+        "active": false,
+        "description": "Character-level text generator using vanilla RNNs trained on Harry Potter, exploring sequence modeling and the vanishing gradient problem in recurrent architectures.",
+        "longDescription": "## About\n\nA character-level text generation project using Recurrent Neural Networks trained on the Harry Potter corpus. The goal was to understand sequence modeling from first principles and observe where vanilla RNNs break down.\n\n## Technical Approach\n\n- Character-level tokenization with one-hot encoding\n- Vanilla RNN cells with tanh activation and hidden state propagation\n- Cross-entropy loss with temperature-controlled softmax sampling\n- Backpropagation through time (BPTT) with gradient clipping\n\n## What I learned\n\n- Vanishing gradients make it difficult for vanilla RNNs to capture long-range dependencies, the model loses coherence beyond short phrases\n- Without gating mechanisms (LSTM/GRU), the hidden state saturates and forgets earlier context\n- Temperature tuning is critical: too low produces repetitive text, too high produces gibberish\n- This project motivated my subsequent LSTM from Scratch implementation to address these limitations",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "Jupyter"
+        ],
+        "authors": "",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/mohamedAtoui/GenerateHarryPotter",
+            "icon": "github"
+          }
+        ],
+        "image": "/proj-harry-potter.png",
+        "video": "",
+        "gallery": []
       }
     ]
   },
   "publications": {
-    "items": [
-      {
-        "title": "CowClip Optimizer ![AAAI Distinguished Award](https://img.shields.io/badge/AAAI-Distinguished%20Paper%20Award-ff3557?logo=ai&logoColor=white&style=flat-square)",
-        "href": "https://arxiv.org/abs/2204.06240",
-        "dates": "AAAI 2023",
-        "active": true,
-        "description": "An optimizer that can train CTR prediction models with large batch (~128k)",
-        "technologies": [
-          "Rec",
-          "Optim"
-        ],
-        "authors": "**Authors:** **Zangwei Zheng**, Pengtai Xu, Xuan Zou, Da Tang, Zhen Li, Chenguang Xi, Peng Wu, Leqi Zou, Yijie Zhu, Ming Chen, Xiangzhuo Ding, Fuzhao Xue, Ziheng Qin, Youlong Cheng, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2204.06240",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/bytedance/LargeBatchCTR",
-            "icon": "github"
-          }
-        ],
-        "image": "/proj-cowclip.png",
-        "video": ""
-      },
-      {
-        "title": "CAME Optimizer ![ACL Outstanding Paper Award](https://img.shields.io/badge/ACL-Outstanding%20Paper%20Award-ff3557?logo=ai&logoColor=white&style=flat-square)",
-        "href": "https://arxiv.org/abs/2307.02047",
-        "dates": "ACL 2023",
-        "active": true,
-        "description": "We introduce CAME, a confidence-guided optimizer that combines the fast convergence of adaptive methods with the low memory footprint of memory-efficient ones.",
-        "technologies": [
-          "LLM",
-          "Optim"
-        ],
-        "authors": "**Authors:** Yang Luo, Xiaozhe Ren, **Zangwei Zheng**, Zhuo Jiang, Xin Jiang, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2307.02047",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/yangluo7/CAME",
-            "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "/blog/proj-came",
-            "icon": "newspaper"
-          }
-        ],
-        "image": "/proj-came.png",
-        "video": ""
-      },
-      {
-        "title": "MERIT Optimizer",
-        "href": "https://arxiv.org/abs/2508.20577",
-        "dates": "ICML 2025",
-        "active": true,
-        "description": "MERIT constructs element-wise trust ratios to enable more robust update scaling by focusing on local weight structures.",
-        "technologies": [
-          "LLM",
-          "Optim"
-        ],
-        "authors": "**Authors:** Yang Luo, **Zangwei Zheng**, Ziheng Qin, Zirui Zhu, Yong Liu, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2508.20577",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/NUS-HPC-AI-Lab/MERIT",
-            "icon": "github"
-          }
-        ],
-        "image": "/proj-merit.png",
-        "video": ""
-      },
-      {
-        "title": "Dynamic Sequence Parallelism",
-        "href": "https://arxiv.org/abs/2403.10266",
-        "dates": "ICML 2025",
-        "active": true,
-        "description": "A novel, elegant and super efficient sequence parallelism for multi-dimensional transformer architecture.",
-        "technologies": [
-          "VideoGen",
-          "MLSys"
-        ],
-        "authors": "**Authors:** Xuanlei Zhao, Shenggan Cheng, Chang Chen, **Zangwei Zheng**, Ziming Liu, Zheming Yang, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2403.10266",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/NUS-HPC-AI-Lab/VideoSys",
-            "icon": "github"
-          },
-          {
-            "type": "Docs",
-            "href": "https://github.com/NUS-HPC-AI-Lab/VideoSys/blob/master/docs/dsp.md",
-            "icon": "bookopen"
-          }
-        ],
-        "image": "/proj-dsp.png",
-        "video": ""
-      },
-      {
-        "title": "InfoBatch: Dataset Pruning on the Fly",
-        "href": "https://arxiv.org/abs/2303.04947",
-        "dates": "ICLR 2024",
-        "active": true,
-        "description": "InfoBatch accelerates model training by pruning easy samples and reweighting losses, achieving up to 40% faster training without sacrificing accuracy across diverse tasks.",
-        "technologies": [
-          "Efficient ML",
-          "CV"
-        ],
-        "authors": "**Authors:** Ziheng Qin, Kai Wang, **Zangwei Zheng**, Jianyang Gu, Xiangyu Peng, Zhaopan Xu, Daquan Zhou, Lei Shang, Baigui Sun, Xuansong Xie, Yang You",
-        "image": "/proj-infobatch.png",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2303.04947",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/NUS-HPC-AI-Lab/InfoBatch",
-            "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "/blog/proj-infobatch",
-            "icon": "newspaper"
-          }
-        ]
-      },
-      {
-        "title": "OpenMoE [![GitHub Repo stars](https://img.shields.io/github/stars/XueFuzhao/OpenMoE?style=social)](https://github.com/XueFuzhao/OpenMoE)",
-        "href": "https://arxiv.org/abs/2402.01739",
-        "dates": "ICML 2024",
-        "active": true,
-        "description": "OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.",
-        "technologies": [
-          "LLM",
-          "MoE",
-          "Pre-training"
-        ],
-        "authors": "**Authors:** Fuzhao Xue, Zian Zheng, Yao Fu, Jinjie Ni, **Zangwei Zheng**, Wangchunshu Zhou, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2402.01739",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/XueFuzhao/OpenMoE",
-            "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "https://xuefuzhao.notion.site/Aug-2023-OpenMoE-v0-2-Release-43808efc0f5845caa788f2db52021879",
-            "icon": "newspaper"
-          }
-        ],
-        "image": "/proj-openmoe.png",
-        "video": ""
-      },
-      {
-        "title": "MSIER",
-        "href": "https://arxiv.org/abs/2404.12866",
-        "dates": "ACL 2024",
-        "active": true,
-        "description": "A supervised retriever that improves multimodal in-context learning by optimally selecting text- and vision-based examples",
-        "technologies": [
-          "Multi-Modal",
-          "In-Context Learning"
-        ],
-        "authors": "**Authors:** Yang Luo, **Zangwei Zheng**, Zirui Zhu, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2404.12866",
-            "icon": "paper"
-          }
-        ],
-        "image": "/proj-msier.png"
-      },
-      {
-        "title": "Sequence Schedule",
-        "href": "https://arxiv.org/abs/2305.13144",
-        "dates": "NeurIPS 2023",
-        "active": true,
-        "description": "Discovered that LLMs can foresee their response length — leading to Sequence Scheduling, an efficient LLM batch inference technique.",
-        "technologies": [
-          "LLM",
-          "Efficient ML",
-          "Inference"
-        ],
-        "authors": "**Authors:** **Zangwei Zheng**, Xiaozhe Ren, Fuzhao Xue, Yang Luo, Xin Jiang, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2305.13144",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/zhengzangw/Sequence-Scheduling",
-            "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "/blog/proj-sequence-schedule",
-            "icon": "newspaper"
-          }
-        ],
-        "image": "/proj-sequence-schedule.png",
-        "video": ""
-      },
-      {
-        "title": "Token-Crisis",
-        "href": "https://arxiv.org/abs/2305.13230",
-        "dates": "NeurIPS 2023",
-        "active": true,
-        "description": "The available data can no longer keep pace with LLM development, but a carefully designed data repetition strategy can partially mitigate this limitation.",
-        "technologies": [
-          "LLM",
-          "Pre-training"
-        ],
-        "authors": "**Authors:** Fuzhao Xue, Yao Fu, Wangchunshu Zhou, **Zangwei Zheng**, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2305.13230",
-            "icon": "paper"
-          }
-        ],
-        "image": "/proj-to-repeat.png"
-      },
-      {
-        "title": "Zero-Shot Continual Learning",
-        "href": "https://arxiv.org/abs/2303.06628",
-        "dates": "ICCV 2023",
-        "active": true,
-        "description": "A new benchmark and method to mitigate forgetting problem existed in the continual learning of large pretrained vision-language models.",
-        "technologies": [
-          "CL",
-          "VLM",
-          "Efficient ML"
-        ],
-        "authors": "**Authors:** **Zangwei Zheng**, Mingyuan Ma, Kai Wang, Ziheng Qin, Xiangyu Yue, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2303.06628",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/Thunderbeee/ZSCL",
-            "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "/blog/proj-zscl",
-            "icon": "newspaper"
-          }
-        ],
-        "image": "/proj-zscl.png",
-        "video": ""
-      },
-      {
-        "title": "DoPrompt for Domain Adaptation",
-        "href": "https://arxiv.org/abs/2208.08914",
-        "dates": "2022",
-        "active": true,
-        "description": "DoPrompt is a simple and effective method to improve the performance of domain adaptation by using prompts.",
-        "technologies": [
-          "DA",
-          "CV"
-        ],
-        "authors": "**Authors:** **Zangwei Zheng**, Xiangyu Yue, Kai Wang, Yang You",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2208.08914",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "hhttps://github.com/zhengzangw/DoPrompt",
-            "icon": "github"
-          }
-        ],
-        "image": "/proj-prompt-da.png",
-        "video": ""
-      },
-      {
-        "title": "PCS Learning",
-        "href": "https://arxiv.org/abs/2103.16765",
-        "dates": "CVPR 2021",
-        "active": true,
-        "description": "An end-to-end Prototypical Cross-domain Self-Supervised Learning (PCS) framework for Few-shot Unsupervised Domain Adaptation (FUDA).",
-        "technologies": [
-          "DA",
-          "CV",
-          "SSL"
-        ],
-        "authors": "**Authors:** Xiangyu Yue, **Zangwei Zheng** (co-first-author), Shanghang Zhang, Yang Gao, Trevor Darrell, Kurt Keutzer, Alberto Sangiovanni Vincentelli",
-        "links": [
-          {
-            "type": "Paper",
-            "href": "https://arxiv.org/abs/2103.16765",
-            "icon": "paper"
-          },
-          {
-            "type": "Github",
-            "href": "https://github.com/zhengzangw/PCS-FUDA",
-            "icon": "github"
-          },
-          {
-            "type": "Blog",
-            "href": "https://xyue.io/pcs-fuda/index.html",
-            "icon": "newspaper"
-          }
-        ],
-        "image": "/proj-pcs-fuda.png",
-        "video": ""
-      }
-    ]
+    "items": []
   },
   "education": {
     "items": [
       {
-        "school": "National University of Singapore",
-        "href": "https://nus.edu.sg/",
-        "degree": "Ph.D. in Computer Science",
-        "logoUrl": "/icon/nus.png",
-        "start": "2021",
-        "end": "2025"
-      },
-      {
-        "school": "Nanjing University",
-        "href": "https://www.nju.edu.cn/en/",
-        "degree": "Bachelor's Degree of Computer Science (top 2%)",
-        "logoUrl": "/icon/nju.png",
-        "start": "2017",
-        "end": "2021"
-      },
-      {
-        "school": "Jiangsu Xishan Senior High School",
-        "href": "https://en.wikipedia.org/wiki/Xishan_Senior_High_School#:~:text=Jiangsu%20Xishan%20Senior%20High%20School,in%20computing%20and%20network%20facilities.",
-        "degree": "High School Diploma",
-        "logoUrl": "/icon/xishan.png",
-        "start": "2014",
-        "end": "2017"
+        "school": "Royal Holloway, University of London",
+        "href": "https://www.royalholloway.ac.uk/",
+        "degree": "BSc Computer Science & Artificial Intelligence (First-Class Honours)",
+        "logoUrl": "/icon/rhul.png",
+        "start": "2023",
+        "end": "2026"
       }
     ]
   },
   "work": {
     "items": [
       {
-        "company": "HPC-AI Tech",
-        "href": "https://www.hpcaitech.com/",
+        "company": "Nordlys Labs",
+        "href": "https://www.nordlyslabs.com/",
         "badges": [],
-        "location": "Singapore",
-        "title": "Tech Lead",
-        "logoUrl": "/icon/hpc-ai.png",
-        "start": "Dec. 2024",
+        "location": "United Kingdom",
+        "title": "Co-Founder & ML Research Lead",
+        "logoUrl": "/icon/nordlys_logo.png",
+        "start": "Feb. 2025",
         "end": "Present",
-        "description": "Founder of Open-Sora and Video-Ocean."
+        "description": "Building intelligent LLM routing systems that select the best model for each task. Beat frontier models on SWE-bench benchmarks. Scaled to 500+ users."
       },
       {
-        "company": "Bytedance",
-        "href": "https://bytedance.com/",
+        "company": "Stats Perform",
+        "href": "https://www.statsperform.com/",
         "badges": [],
-        "location": "Singapore",
-        "title": "Research Intern",
-        "logoUrl": "/icon/bytedance.png",
-        "start": "Jun. 2021",
-        "end": "Jun. 2022",
-        "description": "Work on large batch training for click-through rate prediction model, mentored by Xuan Zhou and Youlong Cheng."
+        "location": "United Kingdom",
+        "title": "Product Data Intern",
+        "logoUrl": "/icon/statsperform.png",
+        "start": "Jun. 2025",
+        "end": "Oct. 2025",
+        "description": "Built and maintained product data pipelines for sports analytics, contributing to data processing workflows and analytics solutions."
       },
       {
-        "company": "UC Berkeley",
-        "href": "https://berkeley.edu/",
+        "company": "ISG Smart Card & IoT Security Center",
+        "href": "",
         "badges": [],
-        "location": "(Remote) Berkeley, CA",
-        "title": "Research Intern",
-        "logoUrl": "/icon/ucb.png",
-        "start": "Apr. 2020",
-        "end": "May. 2021",
-        "description": "Work on self-supervised learning and domain adaptation, mentored by Xiangyu Yue and Alberto Sangiovanni-Vincentelli."
+        "location": "Egham, UK",
+        "title": "Machine Learning Research",
+        "logoUrl": "/icon/isg_logo.png",
+        "start": "Dec. 2024",
+        "end": "Sep. 2025",
+        "description": "Research on adversarial robustness in ML-based intrusion detection systems for autonomous vehicles."
+      },
+      {
+        "company": "Royal Holloway, University of London",
+        "href": "https://www.royalholloway.ac.uk/",
+        "badges": [],
+        "location": "Egham, UK",
+        "title": "Teaching Assistant",
+        "logoUrl": "/icon/rhul.png",
+        "start": "Oct. 2025",
+        "end": "Present",
+        "description": "Teaching Assistant for Object-Oriented Programming & Software Engineering."
       }
     ]
   },
   "awards": {
     "items": [
       {
-        "year": 2023,
-        "title": "Research Achievement Award of NUS"
-      },
-      {
-        "year": 2023,
-        "title": "ACL 2023 Outstanding Paper Award"
-      },
-      {
-        "year": 2023,
-        "title": "AAAI 2023 Distinguished Paper Award"
-      },
-      {
-        "year": 2022,
-        "title": "Papers with Code Contributor Award"
-      },
-      {
-        "year": 2021,
-        "title": "Outstanding Graduates of Nanjing University"
-      },
-      {
-        "year": 2020,
-        "title": "Outstanding Student of Nanjing University"
-      },
-      {
-        "year": 2019,
-        "title": "National Elite Program First-Class Scholarship (2 times, 2018–2019)"
-      },
-      {
-        "year": 2019,
-        "title": "Zheng Gang Overseas Study Scholarship"
+        "year": 2025,
+        "title": "Scaled Nordlys Labs to 500+ users"
       }
     ]
   },
   "invitedTalks": {
-    "items": [
-      {
-        "host": "QbitAI",
-        "url": "https://zhuanlan.zhihu.com/p/605329331",
-        "date": "2023.02",
-        "title": "Large Batch Training for CTR Prediction Model",
-        "logoUrl": "/icon/qbitai.png"
-      },
-      {
-        "host": "TechBeat",
-        "url": "https://www.techbeat.net/talk-info?id=762",
-        "date": "2023.03",
-        "title": "Large Batch Training for Recommendation Model",
-        "logoUrl": "/icon/techbeat.png"
-      },
-      {
-        "host": "Distributed AI (DAI) Conference, invited by *Wenbin Li*",
-        "url": "https://docs.google.com/presentation/d/123kehRyZqkr21ZWxjPyMU8_lMx6ki3g9vWIT3E1glQo/edit?usp=sharing",
-        "date": "2023.12",
-        "title": "Continual Learning on Pretrained Foundation Models",
-        "logoUrl": "/icon/dai.png"
-      },
-      {
-        "host": "National University of Singapore",
-        "url": "",
-        "date": "2024.03",
-        "title": "Video Generation Model",
-        "logoUrl": "/icon/nus.png"
-      },
-      {
-        "host": "Nvidia, invited by *Yuyang Zhao*",
-        "url": "",
-        "date": "2025.03",
-        "title": "Efficient Training with Open-Sora",
-        "logoUrl": "/icon/nvidia.png"
-      },
-      {
-        "host": "Tencent, invited by *Kai Wang*",
-        "url": "https://docs.google.com/presentation/d/1-ds5dfFZARYxN60Q_4fjcDV-GFwYpOcCoJzSLIyak-Q/edit?usp=sharing",
-        "date": "2025.09",
-        "title": "AI Video Gen Model From Scratch",
-        "logoUrl": "/icon/tencent.png"
-      },
-      {
-        "host": "National University of Singapore",
-        "url": "",
-        "date": "2025.11",
-        "title": "From Video Generation to Commercial Agents",
-        "logoUrl": "/icon/nus.png"
-      }
-    ]
+    "items": []
   },
   "teaching": {
     "items": [
       {
-        "date": "Fall 2022",
-        "location": "National University of Singapore",
-        "title": "CS5242: Neural Networks and Deep Learning"
-      },
-      {
-        "date": "Fall 2020",
-        "location": "Nanjing University",
-        "title": "Algorithm Analysis & Design"
+        "date": "Fall 2025",
+        "location": "Royal Holloway, University of London",
+        "title": "Object-Oriented Programming & Software Engineering"
       }
     ]
   },
-  "skills": [
-    "Python",
-    "PyTorch",
-    "TensorFlow",
-    "ColossalAI",
-    "vLLM",
-    "LangGraph",
-    "OpenAI API",
-    "FastMCP",
-    "FastAPI",
-    "PostgreSQL",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Docker",
-    "Terraform",
-    "GitHub Actions",
-    "GitLab CI/CD",
-    "Grafana",
-    "Vercel",
-    "Figma",
-    "Cursor",
-    "C/C++",
-    "FFmpeg"
-  ],
-  "reviewerConferences": [
-    "NeurIPS",
-    "ICLR",
-    "CVPR",
-    "ECCV",
-    "AAAI"
-  ],
-  "reviewerJournals": [
-    "Pattern Recognition",
-    "TIP",
-    "TSMC-S"
-  ],
+  "skills": {
+    "ML & AI": ["Python", "PyTorch", "TensorFlow", "Hugging Face", "scikit-learn", "LangChain", "NumPy", "Pandas"],
+    "Backend": ["FastAPI", "PostgreSQL", "Redis", "SQL", "Go"],
+    "Frontend": ["TypeScript", "Next.js", "React", "Vite"],
+    "Infrastructure": ["Docker", "AWS", "Git", "Linux"]
+  },
+  "reviewerConferences": [],
+  "reviewerJournals": [],
   "social": {
     "GitHub": {
       "name": "GitHub",
-      "url": "https://github.com/zhengzangw",
+      "url": "https://github.com/mohamedAtoui",
       "icon": "github",
       "navbar": false,
       "content": true,
       "footer": true
     },
-    "GoogleScholar": {
-      "name": "Google Scholar",
-      "url": "https://scholar.google.com/citations?user=FTqutJEAAAAJ&hl=en",
-      "icon": "googlescholar",
-      "navbar": false,
-      "content": true,
-      "footer": true
-    },
-    "orcid": {
-      "name": "ORCID",
-      "url": "https://orcid.org/0000-0001-7818-9534",
-      "icon": "orcid",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "dblp": {
-      "name": "DBLP",
-      "url": "https://dblp.org/pid/289/0376.html",
-      "icon": "dblp",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "researchgate": {
-      "name": "ResearchGate",
-      "url": "https://www.researchgate.net/profile/Zangwei-Zheng",
-      "icon": "researchgate",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "semanticScholar": {
-      "name": "Semantic Scholar",
-      "url": "https://www.semanticscholar.org/author/Zangwei-Zheng/2109654065",
-      "icon": "semanticScholar",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
     "LinkedIn": {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/zangweizheng/",
+      "url": "https://www.linkedin.com/in/mohamed-el-amine-atoui-3a39a5299",
       "icon": "linkedin",
       "navbar": false,
       "content": true,
       "footer": true
     },
-    "X": {
-      "name": "X",
-      "url": "https://x.com/zangweizheng",
-      "icon": "x",
-      "navbar": false,
-      "content": true,
-      "footer": true
-    },
-    "bluesky": {
-      "name": "Bluesky",
-      "url": "https://bsky.app/profile/zangwei.dev",
-      "icon": "bluesky",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "facebook": {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/zangweizheng",
-      "icon": "facebook",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "instagram": {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/zangweizheng",
-      "icon": "instagram",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "telegram": {
-      "name": "Telegram",
-      "url": "https://t.me/zangweizheng",
-      "icon": "telegram",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "discord": {
-      "name": "Discord",
-      "url": "https://discordapp.com/users/zangwei",
-      "icon": "discord",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "medium": {
-      "name": "Medium",
-      "url": "https://medium.com/@zangwei",
-      "icon": "medium",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "substack": {
-      "name": "Substack",
-      "url": "https://substack.com/@zangwei",
-      "icon": "substack",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "producthunt": {
-      "name": "Product Hunt",
-      "url": "https://www.producthunt.com/@zangwei",
-      "icon": "producthunt",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "Zhihu": {
-      "name": "Zhihu",
-      "url": "https://www.zhihu.com/people/zheng-zang-wei",
-      "icon": "zhihu",
-      "navbar": false,
-      "content": true,
-      "footer": true
-    },
-    "Xiaohongshu": {
-      "name": "Xiaohongshu",
-      "url": "https://xhslink.com/m/50gKYz1lKlC",
-      "icon": "xiaohongshu",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "weibo": {
-      "name": "Weibo",
-      "url": "https://weibo.com/zhengzangwei",
-      "icon": "weibo",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "wechat": {
-      "name": "WeChat",
-      "url": "/wechat-qrcode.jpg",
-      "icon": "wechat",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
     "email": {
       "name": "Email",
-      "url": "mailto:zhengzangwei@gmail.com",
+      "url": "mailto:mohamedelamineatoui@gmail.com",
       "icon": "email",
       "navbar": false,
       "content": true,
@@ -992,22 +672,6 @@
       "name": "RSS",
       "url": "/api/feed/atom.xml",
       "icon": "rss",
-      "navbar": false,
-      "content": false,
-      "footer": true
-    },
-    "calendly": {
-      "name": "Calendly",
-      "url": "https://calendly.com/zhengzangw/coffee-chat",
-      "icon": "calendly",
-      "navbar": false,
-      "content": false,
-      "footer": false
-    },
-    "ethereum": {
-      "name": "Ethereum",
-      "url": "https://app.ens.domains/zangwei.eth",
-      "icon": "ethereum",
       "navbar": false,
       "content": false,
       "footer": true
