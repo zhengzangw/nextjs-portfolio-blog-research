@@ -57,7 +57,13 @@ export default async function Page(props: {
     }
   };
 
-  const skills = getArrayField<string>("skills");
+  const skillsRaw = (() => {
+    try {
+      return t.raw("skills");
+    } catch {
+      return null;
+    }
+  })();
   const reviewerConferences = getArrayField<string>("reviewerConferences");
   const reviewerJournals = getArrayField<string>("reviewerJournals");
 
@@ -276,11 +282,11 @@ export default async function Page(props: {
       )}
 
       {/* Skills Section */}
-      {Array.isArray(skills) && skills.length > 0 && (
+      {skillsRaw && (Array.isArray(skillsRaw) ? skillsRaw.length > 0 : Object.keys(skillsRaw).length > 0) && (
         <section id="skills">
           <div className="flex min-h-0 flex-col gap-y-3">
             <h2 className="text-xl font-bold">{t("sections.skills")}</h2>
-            <Skills skills={skills} />
+            <Skills skills={skillsRaw} />
           </div>
         </section>
       )}

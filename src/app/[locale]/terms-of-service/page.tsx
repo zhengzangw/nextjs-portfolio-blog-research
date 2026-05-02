@@ -31,7 +31,7 @@ export default async function TermsAndDisclaimer(props: {
   const locale = params.locale || routing.defaultLocale;
   const t = await getTranslations({ locale });
 
-  const dateLocale = locale === "zh" ? "zh-CN" : "en-US";
+  const dateLocale = locale === "fr" ? "fr-FR" : "en-US";
 
   return (
     <main className="mx-auto max-w-4xl px-6 pt-16 pb-16 sm:px-16 md:px-20 md:pt-24 lg:px-24 xl:px-32">

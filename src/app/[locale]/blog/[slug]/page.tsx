@@ -8,13 +8,13 @@ import { formatDate } from "@/lib/utils";
 
 export async function generateStaticParams() {
   const enPosts = await getBlogPosts("en");
-  const zhPosts = await getBlogPosts("zh");
+  const frPosts = await getBlogPosts("fr");
 
   const params: Array<{ locale: string; slug: string }> = [];
 
   // Ensure we have arrays before iterating
   const enArray = Array.isArray(enPosts) ? enPosts : [];
-  const zhArray = Array.isArray(zhPosts) ? zhPosts : [];
+  const frArray = Array.isArray(frPosts) ? frPosts : [];
 
   enArray.forEach((post) => {
     if (post?.slug) {
@@ -22,9 +22,9 @@ export async function generateStaticParams() {
     }
   });
 
-  zhArray.forEach((post) => {
+  frArray.forEach((post) => {
     if (post?.slug) {
-      params.push({ locale: "zh", slug: post.slug });
+      params.push({ locale: "fr", slug: post.slug });
     }
   });
 

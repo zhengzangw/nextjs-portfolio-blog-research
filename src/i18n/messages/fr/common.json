@@ -1,0 +1,229 @@
+{
+    "sections": {
+        "about": "\u00c0 propos",
+        "selectedProjects": "Projets s\u00e9lectionn\u00e9s",
+        "checkOutLatestWork": "D\u00e9couvrez mes derniers travaux",
+        "research": "Recherche",
+        "viewFullPublications": "Voir la liste compl\u00e8te de mes publications sur",
+        "skills": "Comp\u00e9tences",
+        "education": "Formation",
+        "workExperience": "Stages & Exp\u00e9rience professionnelle",
+        "awards": "Prix & Distinctions",
+        "academicServices": "Services acad\u00e9miques",
+        "work": {
+            "title": "Projets",
+            "tagline": "Une collection de projets que j'ai construits.",
+            "allCategories": "Tout",
+            "technologies": "Technologies",
+            "gallery": "Galerie",
+            "viewProject": "Voir le projet",
+            "noResults": "Aucun projet trouvé"
+        },
+        "news": {
+            "title": "Derni\u00e8res actualit\u00e9s"
+        },
+        "publications": {
+            "title": "Publications"
+        },
+        "invitedTalks": {
+            "title": "Conf\u00e9rences invit\u00e9es"
+        },
+        "teaching": {
+            "title": "Enseignement",
+            "reviewerConferencesLabel": "R\u00e9viseur de conf\u00e9rences :",
+            "reviewerJournalsLabel": "R\u00e9viseur de revues :",
+            "teachingLabel": "Assistant d'enseignement :"
+        },
+        "contact": "Contact",
+        "getInTouch": "Me contacter",
+        "contactDescription": "Envie de discuter ? N'h\u00e9sitez pas \u00e0 me contacter",
+        "viaEmail": "par email",
+        "askQuestions": "Poser des questions",
+        "exploreCollaboration": "Explorer les opportunit\u00e9s de collaboration",
+        "coffeeChat": "Caf\u00e9 virtuel de 15 minutes",
+        "schedule": "Planifier"
+    },
+    "showAll": "Tout afficher",
+    "navbar": {
+        "items": [
+            {
+                "href": "/",
+                "icon": "home",
+                "label": "Accueil"
+            },
+            {
+                "href": "/work",
+                "icon": "folder",
+                "label": "Projets"
+            },
+            {
+                "href": "/blog",
+                "icon": "notebook",
+                "label": "Blog"
+            },
+            {
+                "href": "/Mohamed_Atoui_CV.pdf",
+                "icon": "fileuser",
+                "label": "CV"
+            }
+        ],
+        "theme": "Th\u00e8me",
+        "language": "Langue"
+    },
+    "blog": {
+        "title": "Blog",
+        "titleWithName": "Blog de {name}",
+        "readMore": "Lire la suite",
+        "authorLabel": "par",
+        "readingTime": "{minutes} min de lecture",
+        "toc": {
+            "title": "Table des mati\u00e8res",
+            "toggle": "Afficher/masquer la table des mati\u00e8res",
+            "close": "Fermer la table des mati\u00e8res",
+            "empty": "Aucune table des mati\u00e8res disponible"
+        }
+    },
+    "footer": {
+        "navigation": {
+            "about": "\u00c0 propos",
+            "projects": "Projets",
+            "education": "Formation",
+            "experience": "Exp\u00e9rience",
+            "skills": "Comp\u00e9tences",
+            "awards": "Prix"
+        },
+        "sections": {
+            "quickNavigation": "Navigation rapide",
+            "connect": "Connexion",
+            "resources": "Ressources",
+            "discover": "D\u00e9couvrir",
+            "contact": "Contact"
+        },
+        "resources": [
+            {
+                "name": "Blog",
+                "url": "/blog"
+            },
+            {
+                "name": "Mod\u00e8le",
+                "url": "https://github.com/zhengzangw/nextjs-portfolio-blog-research"
+            },
+            {
+                "name": "T\u00e9l\u00e9charger le CV",
+                "url": "/Mohamed_Atoui_CV.pdf"
+            }
+        ],
+        "discover": [
+            {
+                "name": "Nordlys Labs",
+                "url": "https://github.com/Nordlys-Labs/nordlys"
+            },
+            {
+                "name": "Royal Holloway",
+                "url": "https://www.royalholloway.ac.uk/"
+            },
+            {
+                "name": "Antler",
+                "url": "https://www.antler.co/"
+            },
+            {
+                "name": "Stats Perform",
+                "url": "https://www.statsperform.com/"
+            }
+        ],
+        "contact": {
+            "support": "Support"
+        },
+        "legal": {
+            "mitLicense": "Licence MIT",
+            "privacyPolicy": "Politique de confidentialit\u00e9",
+            "termsDisclaimer": "Conditions & Avertissement"
+        },
+        "bottom": {
+            "lastUpdated": "Derni\u00e8re mise \u00e0 jour",
+            "madeWith": "Fait avec",
+            "modifiedFrom": "Construit avec"
+        }
+    },
+    "privacyPolicy": {
+        "title": "Politique de confidentialit\u00e9",
+        "lastUpdated": "Derni\u00e8re mise \u00e0 jour",
+        "sections": {
+            "informationWeCollect": {
+                "title": "Informations que nous collectons",
+                "description": "Ce site web utilise Google Analytics 4 (GA4) pour collecter des statistiques d'utilisation anonymes. Les donn\u00e9es collect\u00e9es comprennent :",
+                "items": [
+                    "Pages visit\u00e9es et temps pass\u00e9 sur les pages",
+                    "Informations sur l'appareil et le navigateur",
+                    "Localisation g\u00e9ographique g\u00e9n\u00e9rale (niveau pays/ville)",
+                    "Sources de trafic et informations de r\u00e9f\u00e9rencement"
+                ],
+                "note": "Aucune information personnellement identifiable n'est collect\u00e9e via GA4."
+            },
+            "howWeUseInformation": {
+                "title": "Comment nous utilisons les informations",
+                "description": "Les donn\u00e9es anonymes collect\u00e9es via GA4 sont utilis\u00e9es uniquement pour :",
+                "items": [
+                    "Comprendre le trafic du site et le comportement des utilisateurs",
+                    "Am\u00e9liorer les performances du site et l'exp\u00e9rience utilisateur",
+                    "Analyser la popularit\u00e9 et l'engagement du contenu"
+                ]
+            },
+            "dataSharing": {
+                "title": "Partage des donn\u00e9es",
+                "description": "Nous ne vendons, n'\u00e9changeons ni ne transf\u00e9rons vos donn\u00e9es \u00e0 des tiers. Les donn\u00e9es analytiques anonymes sont trait\u00e9es par Google Analytics conform\u00e9ment \u00e0 la politique de confidentialit\u00e9 de Google."
+            },
+            "cookies": {
+                "title": "Cookies",
+                "description": "Ce site web utilise des cookies via Google Analytics pour suivre les interactions des utilisateurs. Vous pouvez d\u00e9sactiver les cookies dans les param\u00e8tres de votre navigateur si vous pr\u00e9f\u00e9rez ne pas \u00eatre suivi."
+            },
+            "contact": {
+                "title": "Contact",
+                "description": "Si vous avez des questions concernant cette politique de confidentialit\u00e9, veuillez me contacter via les informations fournies sur le site principal."
+            }
+        }
+    },
+    "termsOfService": {
+        "title": "Conditions & Avertissement",
+        "lastUpdated": "Derni\u00e8re mise \u00e0 jour",
+        "sections": {
+            "termsOfService": {
+                "title": "Conditions d'utilisation",
+                "description": "En acc\u00e9dant et en utilisant ce site web, vous acceptez d'\u00eatre li\u00e9 par les termes et dispositions de cet accord."
+            },
+            "useLicense": {
+                "title": "Licence d'utilisation",
+                "description": "Ce site web est construit sur un logiciel open-source sous licence MIT. Sous la licence MIT, vous \u00eates libre d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre des copies du logiciel, sous r\u00e9serve des conditions suivantes :",
+                "items": [
+                    "L'avis de droit d'auteur original et l'avis de permission doivent \u00eatre inclus dans toutes les copies ou parties substantielles du logiciel",
+                    "Le logiciel est fourni \u00ab tel quel \u00bb, sans garantie d'aucune sorte"
+                ]
+            },
+            "disclaimer": {
+                "title": "Avertissement",
+                "description": "Les mat\u00e9riaux de ce site web sont fournis \u00ab tels quels \u00bb. Je ne fais aucune garantie, expresse ou implicite, et par la pr\u00e9sente d\u00e9cline et nie toutes les autres garanties, y compris, sans limitation, les garanties implicites ou conditions de qualit\u00e9 marchande, d'ad\u00e9quation \u00e0 un usage particulier, ou de non-violation de la propri\u00e9t\u00e9 intellectuelle."
+            },
+            "limitations": {
+                "title": "Limitations",
+                "description": "En aucun cas, moi ou mes fournisseurs ne serons responsables de tout dommage (y compris, sans limitation, les dommages pour perte de donn\u00e9es ou de profit, ou en raison d'une interruption d'activit\u00e9) d\u00e9coulant de l'utilisation ou de l'impossibilit\u00e9 d'utiliser les mat\u00e9riaux de ce site web."
+            },
+            "accuracyOfMaterials": {
+                "title": "Exactitude des mat\u00e9riaux",
+                "description": "Les mat\u00e9riaux apparaissant sur ce site web peuvent contenir des erreurs techniques, typographiques ou photographiques. Je ne garantis pas que les mat\u00e9riaux de ce site web sont exacts, complets ou \u00e0 jour.",
+                "note": "Le contenu de ce site web est principalement en anglais. Les autres langues sont principalement traduites avec l'aide de mod\u00e8les de langage. Veuillez faire preuve de discernement lors de la lecture du contenu traduit."
+            },
+            "links": {
+                "title": "Liens",
+                "description": "Je n'ai pas examin\u00e9 tous les sites li\u00e9s \u00e0 ce site web et ne suis pas responsable du contenu de ces sites li\u00e9s. L'inclusion d'un lien n'implique pas mon approbation du site."
+            },
+            "modifications": {
+                "title": "Modifications",
+                "description": "Je peux r\u00e9viser ces conditions d'utilisation \u00e0 tout moment sans pr\u00e9avis. En utilisant ce site web, vous acceptez d'\u00eatre li\u00e9 par la version actuelle de ces conditions."
+            },
+            "contact": {
+                "title": "Contact",
+                "description": "Si vous avez des questions concernant ces conditions et avertissement, veuillez me contacter via les informations fournies sur le site principal."
+            }
+        }
+    }
+}

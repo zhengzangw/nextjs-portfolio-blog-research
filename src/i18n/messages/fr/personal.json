@@ -1,0 +1,18 @@
+{
+    "name": {
+        "full": "Mohamed Atoui",
+        "given": "Mohamed",
+        "family": "Atoui",
+        "initials": "MA"
+    },
+    "subtitle": "Licence Informatique & IA",
+    "headline": "Ingénieur ML\nCo-Fondateur chez Nordlys Labs",
+    "welcome": "Bienvenue sur mon portfolio !",
+    "ogImageUrl": "",
+    "bioMarkdown": "Salut, je suis Mohamed — Co-Fondateur & Responsable Recherche ML chez ![Nordlys Logo](/icon/nordlys_logo.png) [Nordlys Labs](https://github.com/Nordlys-Labs/nordlys), où nous avons construit un système de routage LLM **classé n°1 sur SWE-bench, battant les modèles frontière**, et passé à plus de 500 utilisateurs.\n\nJe suis étudiant en dernière année d'Informatique & IA à ![RHUL Logo](/icon/rhul.png) [Royal Holloway, University of London](https://www.royalholloway.ac.uk/), diplômé avec mention Très Bien. Ma recherche porte sur les mécanismes d'attention des transformers et la compression du KV-cache pour les grands modèles de langage. En parallèle, j'ai travaillé sur la robustesse adversariale en détection d'intrusions ML au ISG Smart Card & IoT Security Centre, sur l'analyse sportive chez ![Stats Perform Logo](/icon/statsperform.png) [Stats Perform](https://www.statsperform.com/), et j'enseigne actuellement la Programmation Orientée Objet & l'Ingénierie Logicielle à Royal Holloway.\n\nPlus de détails dans mon [CV](./Mohamed_Atoui_CV.pdf).\n\n**Intérêts :** Apprentissage automatique, Systèmes LLM, IA appliquée, Développement produit.",
+    "location": {
+        "name": "Egham, Royaume-Uni",
+        "mapUrl": "https://www.google.com/maps/place/egham"
+    },
+    "blogTagline": "Réflexions sur l'IA, l'apprentissage automatique, et plus encore."
+}

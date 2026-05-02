@@ -49,6 +49,7 @@ export default function Navbar({
   const getIconComponent = (iconName: string) => {
     const iconMap: Record<string, typeof Icons.home> = {
       home: Icons.home,
+      folder: Icons.folder,
       notebook: Icons.notebook,
       fileuser: Icons.fileuser,
     };
@@ -78,41 +79,24 @@ export default function Navbar({
           const isStaticFile = href.includes(".") && (href.endsWith(".pdf") || href.endsWith(".png") || href.endsWith(".jpg") || href.endsWith(".jpeg"));
           const LinkComponent = isStaticFile ? "a" : I18nLink;
 
+          const linkClass = cn(
+            buttonVariants({ variant: "ghost" }),
+            "h-10 gap-2 px-3 text-xs sm:text-sm",
+          );
+
           return (
-            <DockIcon key={item.href}>
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  {isStaticFile ? (
-                    <a
-                      href={href}
-                      className={cn(
-                        buttonVariants({ variant: "ghost", size: "icon" }),
-                        "size-12",
-                      )}
-                      aria-label={label}
-                    >
-                      <IconComponent className="size-4" />
-                    </a>
-                  ) : (
-                    <LinkComponent
-                      href={href}
-                      className={cn(
-                        buttonVariants({ variant: "ghost", size: "icon" }),
-                        "size-12",
-                      )}
-                      aria-label={label}
-                    >
-                      <IconComponent className="size-4" />
-                    </LinkComponent>
-                  )}
-                </TooltipTrigger>
-                <TooltipContent
-                  side={isDesktop ? "bottom" : "top"}
-                  sideOffset={8}
-                >
-                  <p>{label}</p>
-                </TooltipContent>
-              </Tooltip>
+            <DockIcon key={item.href} wide>
+              {isStaticFile ? (
+                <a href={href} className={linkClass} aria-label={label}>
+                  <IconComponent className="size-4" />
+                  <span>{label}</span>
+                </a>
+              ) : (
+                <LinkComponent href={href} className={linkClass} aria-label={label}>
+                  <IconComponent className="size-4" />
+                  <span>{label}</span>
+                </LinkComponent>
+              )}
             </DockIcon>
           );
         })}

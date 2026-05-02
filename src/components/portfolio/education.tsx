@@ -8,6 +8,7 @@ interface Education {
   start: string;
   end: string;
   location?: string;
+  description?: string;
 }
 
 interface EducationProps {
@@ -27,6 +28,8 @@ export default function Education({ educations }: EducationProps) {
           subtitle={education.degree}
           period={`${education.start} - ${education.end}`}
           location={education.location}
+          description={education.description}
+          useMarkdown={!!education.description}
         />
       ))}
     </div>

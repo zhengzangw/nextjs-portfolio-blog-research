@@ -42,7 +42,7 @@ export const contentType = "image/png";
 function formatDate(dateString: string, locale: string): string {
   try {
     const date = new Date(dateString);
-    return new Intl.DateTimeFormat(locale === "zh" ? "zh-CN" : "en-US", {
+    return new Intl.DateTimeFormat(locale === "fr" ? "fr-FR" : "en-US", {
       year: "numeric",
       month: "long",
       day: "numeric",

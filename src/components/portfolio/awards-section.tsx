@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { useTouchFeedback } from "@/hooks/use-touch-feedback";
 
 interface AwardItem {
   readonly year: number;
@@ -18,21 +19,7 @@ interface AwardsSectionProps {
 const DEFAULT_DISPLAY_COUNT = 5;
 
 function AwardItem({ award }: { award: AwardItem }) {
-  const [isTapped, setIsTapped] = useState(false);
-
-  const handleTouchStart = () => {
-    if (window.innerWidth < 640) {
-      // sm breakpoint
-      setIsTapped(true);
-    }
-  };
-
-  const handleTouchEnd = () => {
-    if (window.innerWidth < 640) {
-      // Keep the effect for a bit longer
-      setTimeout(() => setIsTapped(false), 200);
-    }
-  };
+  const { isTapped, handleTouchStart, handleTouchEnd } = useTouchFeedback();
 
   return (
     <div

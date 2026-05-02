@@ -31,6 +31,7 @@ export default function Work({ work }: WorkProps) {
           badges={item.badges}
           period={`${item.start} - ${item.end ?? "Present"}`}
           description={item.description}
+          useMarkdown
         />
       ))}
     </div>

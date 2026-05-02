@@ -109,6 +109,7 @@ export interface DockIconProps
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
+  wide?: boolean;
 }
 
 const DockIcon = ({
@@ -119,6 +120,7 @@ const DockIcon = ({
   mouseX,
   className,
   children,
+  wide,
   ...props
 }: DockIconProps) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -126,10 +128,10 @@ const DockIcon = ({
   const defaultMouseX = useMotionValue(Infinity);
 
   // 如果没有 mouseX 或禁用了放大，使用固定尺寸
-  const shouldAnimate = mouseX && !disableMagnification;
-  
+  const shouldAnimate = mouseX && !disableMagnification && !wide;
+
   const distanceCalc = useTransform(
-    shouldAnimate ? mouseX : defaultMouseX, 
+    shouldAnimate ? mouseX : defaultMouseX,
     (val: number) => {
       const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 };
       return val - bounds.x - bounds.width / 2;
@@ -153,19 +155,24 @@ const DockIcon = ({
   return (
     <motion.div
       ref={ref}
-      style={{ 
-        width: shouldAnimate ? scaleSize : size, 
-        height: shouldAnimate ? scaleSize : size, 
-        padding 
-      }}
+      style={
+        wide
+          ? { height: size, paddingLeft: padding, paddingRight: padding }
+          : {
+              width: shouldAnimate ? scaleSize : size,
+              height: shouldAnimate ? scaleSize : size,
+              padding,
+            }
+      }
       className={cn(
-        "flex aspect-square cursor-pointer items-center justify-center rounded-full",
+        "flex cursor-pointer items-center justify-center",
+        wide ? "rounded-full" : "aspect-square rounded-full",
         disableMagnification && "hover:bg-muted-foreground transition-colors",
         className,
       )}
       {...props}
     >
-      <div>{children}</div>
+      <div className={cn(wide && "flex h-full items-center")}>{children}</div>
     </motion.div>
   );
 };

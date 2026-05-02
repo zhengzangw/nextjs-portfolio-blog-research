@@ -10,6 +10,15 @@
         "workExperience": "Internship & Work Experience",
         "awards": "Awards & Honors",
         "academicServices": "Academic Services",
+        "work": {
+            "title": "Work",
+            "tagline": "A collection of projects I've built.",
+            "allCategories": "All",
+            "technologies": "Technologies",
+            "gallery": "Gallery",
+            "viewProject": "View Project",
+            "noResults": "No projects found"
+        },
         "news": {
             "title": "Latest News"
         },
@@ -43,12 +52,17 @@
                 "label": "Home"
             },
             {
+                "href": "/work",
+                "icon": "folder",
+                "label": "Work"
+            },
+            {
                 "href": "/blog",
                 "icon": "notebook",
                 "label": "Blog"
             },
             {
-                "href": "/resume.pdf",
+                "href": "/Mohamed_Atoui_CV.pdf",
                 "icon": "fileuser",
                 "label": "CV"
             }
@@ -96,40 +110,28 @@
             },
             {
                 "name": "Download CV",
-                "url": "/resume.pdf"
-            },
-            {
-                "name": "QR code",
-                "url": "/qrcode.png"
-            },
-            {
-                "name": "Business card",
-                "url": "/business-card-en.jpg"
+                "url": "/Mohamed_Atoui_CV.pdf"
             }
         ],
         "discover": [
             {
-                "name": "HPC-AI Lab",
-                "url": "https://ai.comp.nus.edu.sg/"
+                "name": "Nordlys Labs",
+                "url": "https://github.com/Nordlys-Labs/nordlys"
             },
             {
-                "name": "iCyPhy",
-                "url": "https://www.icyphy.org/people.html"
+                "name": "Royal Holloway",
+                "url": "https://www.royalholloway.ac.uk/"
             },
             {
-                "name": "NJU-CSE-Flyers",
-                "url": "https://nju-cse-flyers.github.io/"
-            },
-            {
-                "name": "HPC-AI Tech",
-                "url": "https://www.hpcaitech.com/"
+                "name": "Stats Perform",
+                "url": "https://www.statsperform.com/"
             }
         ],
         "contact": {
             "support": "Support"
         },
         "legal": {
-            "allRightsReserved": "All rights reserved",
+            "mitLicense": "MIT License",
             "privacyPolicy": "Privacy Policy",
             "termsDisclaimer": "Terms & Disclaimer"
         },
@@ -187,12 +189,10 @@
             },
             "useLicense": {
                 "title": "Use License",
-                "description": "Permission is granted to temporarily download one copy of the materials on this website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:",
+                "description": "This website is built on open-source software licensed under the MIT License. Under the MIT License, you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the following conditions:",
                 "items": [
-                    "Modify or copy the materials",
-                    "Use the materials for any commercial purpose or for any public display",
-                    "Attempt to reverse engineer any software contained on the website",
-                    "Remove any copyright or other proprietary notations from the materials"
+                    "The original copyright notice and permission notice shall be included in all copies or substantial portions of the software",
+                    "The software is provided 'as is', without warranty of any kind"
                 ]
             },
             "disclaimer": {

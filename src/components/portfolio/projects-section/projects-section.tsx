@@ -18,6 +18,7 @@ interface ProjectItem {
   readonly dates: string;
   readonly active: boolean;
   readonly description: string;
+  readonly longDescription?: string;
   readonly technologies?: readonly string[];
   readonly authors?: string;
   readonly links?: readonly ProjectLink[];
@@ -48,7 +49,7 @@ export default function ProjectsSection({
     setMounted(true);
 
     const updateDisplayCount = () => {
-      // 使用 Tailwind 的 lg 断点 (1024px) 作为桌面和移动端的分界
+      // Use Tailwind's lg breakpoint (1024px) as desktop/mobile boundary
       const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
       setDisplayCount(isDesktop ? desktopDisplayCount : mobileDisplayCount);
     };
@@ -74,6 +75,7 @@ export default function ProjectsSection({
             href={project.href}
             title={project.title}
             description={project.description}
+            longDescription={project.longDescription}
             dates={project.dates}
             tags={project.technologies}
             image={project.image}
@@ -94,6 +96,7 @@ export default function ProjectsSection({
           href={project.href}
           title={project.title}
           description={project.description}
+          longDescription={project.longDescription}
           dates={project.dates}
           tags={project.technologies}
           image={project.image}

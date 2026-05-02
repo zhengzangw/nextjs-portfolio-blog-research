@@ -188,10 +188,10 @@ export default function Footer() {
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <div className="text-muted-foreground flex items-center gap-2 text-sm">
               <span>
-                © {currentYear} {t("name.full")}
+                © 2025 Zangwei Zheng
               </span>
               <span>•</span>
-              <span>{t("footer.legal.allRightsReserved")}</span>
+              <span>{t("footer.legal.mitLicense")}</span>
             </div>
 
             <div className="text-muted-foreground flex items-center gap-2 text-sm">
